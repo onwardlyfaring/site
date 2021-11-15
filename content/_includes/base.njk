@@ -4,13 +4,16 @@
         {% include "head.njk" %}
         {% include "json-ld.njk" %}
     </head>
-    <body class="dark:text-gray-300 dark:bg-dark-body bg-onwardYellowish-lighter text-gray-900 tracking-wider font-light overflow-x-hidden sm:overflow-auto">
-        <div class="grid grid-flow-col grid-cols-small sm:grid-cols-regular h-screen">
-            <div id="sidebar" class="sidebar sticky transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
+    <body class="dark:text-gray-300 dark:bg-dark-body bg-lighterYellowish text-gray-900 tracking-wider font-light overflow-x-hidden sm:overflow-auto">
+        <div class="grid grid-flow-col grid-cols-small sm:grid-cols-regular h-screen w-full">
+            
+            <div id="sidebar" class="font-spacious sidebar sticky transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
                 {% include "sidebar.njk" %}
             </div>
-            <div id="right-area" class="overflow-x-hidden sm:overflow-auto transition-transform transform sm:translate-x-0 sm:transition-none">
-                <div id="top-bar" class="h-12 z-10 bg-white dark:bg-dark-heading transition-transform duration-200 ease-in sm:sticky top-0 border-gray-600 border-b-1 dark:border-transparent border-opacity-30 shadow-lg">
+
+            <div id="right-area" class="font-mySans overflow-x-hidden sm:overflow-auto transition-transform transform sm:translate-x-0 sm:transition-none">
+                
+                <div id="top-bar" class="h-12 z-10 sm:hidden bg-onwardLightBlue dark:bg-dark-heading transition-transform duration-200 ease-in sm:sticky top-0 border-gray-600 border-b-1 dark:border-transparent border-opacity-30 shadow-lg">
                     <div class="grid grid-flow-col grid-cols-auto md:grid-cols-topbar max-w-content">
                         <div id="mobile-top-bar" class="flex leading-12 sm:hidden col-span-2">
                             <svg viewBox="0 0 100 80" class="block align-middle h-12 leading-12 ml-3 py-3 pt-4" onclick="slideLeftSidebar()">
@@ -27,7 +30,7 @@
                             <div class="w-12"></div>
                             {% endif %}
                         </div>
-                        <div id="topbar-desktop-title" class="hidden sm:inline-block leading-12 align-middle ml-8 lg:ml-32 text-base text-gray-500 dark:text-gray-400 pr-8 truncate">
+                        {# <div id="topbar-desktop-title" class="hidden sm:inline-block leading-12 align-middle ml-8 lg:ml-32 text-base text-gray-500 dark:text-gray-400 pr-8 truncate">
                             {% if date %}<a href="/" class="text-indigo-900 dark:text-indigo-300 font-normal dark:font-light">Posts</a> › {% endif %}{{ title }}</div>
                         <div id="search-desktop-title" class="hidden sm:hidden leading-12 align-middle ml-8 lg:ml-32 text-base text-gray-500 dark:text-gray-400">
                         </div>
@@ -36,10 +39,11 @@
                             <input id="search-box" type="search" autocomplete="off" spellcheck="false" autocorrect="off" onkeyup="searchContent(event)" class="bg-white dark:bg-dark-nav text-gray-800 dark:text-gray-400 font-light shadow rounded-full border-0 ring-1 ring-gray-300 focus:ring-indigo-400 dark:ring-gray-700 dark:focus:ring-gray-600 pl-2 h-6 w-2/3 sm:float-right sm:mr-6 md:float-none md:w-56 focus:outline-none" placeholder="Search..." aria-label="Search box">
                             <span id="mobile-search-cancel" class="hidden sm:hidden ml-4" onclick="toggleSearch()">Cancel</span>
                         </div>
-                        {% endif %}
+                        {% endif %} #}
                     </div>
                     <div></div>
                 </div>
+
                 <div class="dark:bg-dark-body grid grid-flow-col grid-cols-auto xl:grid-cols-topbar max-w-content mb-12">
                     <main class="min-w-0">
                         {{ content | safe }}
@@ -63,7 +67,13 @@
                 </div>
             </div>
         </div>
-        <div id="scroll" class="scroll" onclick="scrollToTop()">
+        <div id="footer" class="hidden lg:block -m-4 h-4 z-10 relative 
+        bg-onwardPurplish dark:bg-black border-gray-600 
+        text-gray-600
+        border-b-1 dark:border-transparent border-opacity-30 shadow-lg"> 
+        <p class = "text-xs text-center">"...and if at night by someone you are guessed, so that you're forced to come into his prayer: you're still the guest that onwardly will fare..." </p>
+        </div>
+        {# <div id="scroll" class="scroll" onclick="scrollToTop()">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1000 1000"
@@ -75,6 +85,6 @@
                     ></path>
                 </g>
             </svg>
-        </div>
+        </div> #}
     </body>
 </html>
