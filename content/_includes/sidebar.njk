@@ -13,19 +13,19 @@
     <div class="menu">
         <ul class="list-none pl-0">
             <li class="navitem text-center uppercase {{ page.url | isHomeLink('/') }}">
-                <a href="/" class="block no-underline">Posts</a>
+                <a href="/" class="block no-underline">Home</a>
+            </li>            
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/posts') }}">
+                <a href="/posts/" class="block no-underline">Posts</a>
             </li>
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/who') }}">
-                <a href="/who/" class="block no-underline">Who</a>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/about') }}">
+                <a href="/about/" class="block no-underline">About</a>
             </li>
             <li class="navitem text-center uppercase {{ page.url | isActiveLink('/why') }}">
                 <a href="/why/" class="block no-underline">Why</a>
             </li>
             <li class="navitem text-center uppercase {{ page.url | isActiveLink('/archive') }}">
                 <a href="/archive/" class="block no-underline">Archive</a>
-            </li>
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/archive') }}">
-                <a href="/archive/" class="block no-underline">Archive2</a>
             </li>
         </ul>
     </div>
