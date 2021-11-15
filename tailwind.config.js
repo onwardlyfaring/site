@@ -33,7 +33,19 @@ module.exports = {
     },
     theme: {
         extend: {
-            backgroundColor: (theme) => ({
+            colors: {
+                "onwardFontColor": "#000815",
+                "onwardBackground": "#c9deff",
+                "onwardExternalLinkColor": "#cc4f7f", 
+                "onwardVeryLightBlue": "#e1ecff",
+                "onwardLightBlue": "#d4e5fe",
+                "onwardVeryDarkBlue": "#56647b",
+                "onwardPurplish": "#d6d7f5",
+                "onwardYellowish": "#f9ffc9", 
+                "onwardLightYellowish": "#fcffe4"
+            }
+
+            , backgroundColor: (theme) => ({
                 ...theme("colors"),
                 "dark-nav": "#242424",
                 "dark-body": "#1B1B1E",
