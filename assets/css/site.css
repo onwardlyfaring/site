@@ -26,7 +26,7 @@ div.menu ul > li:last-child > a {
 }
 
 div.menu ul > li:last-child::after {
-    visibility: visible;
+    visibility: hidden;
     content: "";
     position: relative;
     right: -8.8rem;
@@ -180,7 +180,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content a {
-    @apply text-indigo-900 dark:text-indigo-300 underline;
+    @apply text-onwardExternalLinkColor dark:text-indigo-300 underline;
 }
 
 .content p {
@@ -196,7 +196,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content h1 {
-    @apply text-2xl dark:font-light py-6 mt-4;
+    @apply text-2xl font-medium dark:font-light py-6 mt-4;
 }
 
 .content h2 {
