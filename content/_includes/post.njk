@@ -51,7 +51,7 @@ layout: base.njk
 	<img src="{{ image }}" alt="{{ imageAlt }}" />
 	{% endif %}
   	{{ content | safe }}
-  	{% include "social.njk" %}
+  	{# {% include "social.njk" %} #}
 	<div class="block w-full h-1 border-solid border-b-1 border-gray-700"></div>
 	<div class="additions flex flex-col sm:flex-row gap-3 mt-6 px-4 w-full">	
 		{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}	
