@@ -26,7 +26,7 @@ div.menu ul > li:last-child > a {
 }
 
 div.menu ul > li:last-child::after {
-    visibility: hidden;
+    visibility: visible;
     content: "";
     position: relative;
     right: -8.8rem;
