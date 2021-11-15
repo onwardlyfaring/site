@@ -9,7 +9,7 @@ img {
 /* Left sidebar */
 
 .sidebar .navitem {
-    @apply text-gray-400 hover:text-white px-1;
+    @apply text-gray-400 hover:text-blackberry-light px-1;
 }
 
 .sidebar .navitem.active {
@@ -43,29 +43,72 @@ div.menu ul > li:last-child::after {
     }
 }
 
-div.menu ul > li.active:nth-child(1) ~ li:last-child::after,
+
+div.menu ul > li.active:nth-child(1) ~ li:last-child::after
+, div.menu ul > li.navitem.active:nth-child(1):hover ~ li:last-child::after{
+    top: -15rem;
+    visibility: visible;
+    border-right-color: white; 
+}
 div.menu ul > li.navitem:nth-child(1):hover ~ li:last-child::after {
+    top: -15rem;
+    visibility: visible;
+    border-right-color: #bb0000; 
+}
+
+div.menu ul > li.active:nth-child(2) ~ li:last-child::after
+, div.menu ul > li.navitem.active:nth-child(2):hover ~ li:last-child::after {
     top: -12rem;
     visibility: visible;
+    border-right-color: white; 
 }
-div.menu ul > li.active:nth-child(2) ~ li:last-child::after,
 div.menu ul > li.navitem:nth-child(2):hover ~ li:last-child::after {
+    top: -12rem;
+    visibility: visible;
+    border-right-color: #bb0000; 
+}
+
+div.menu ul > li.active:nth-child(3) ~ li:last-child::after
+,div.menu ul > li.navitem.active:nth-child(3):hover ~ li:last-child::after{
     top: -9rem;
     visibility: visible;
+    border-right-color: white; 
 }
-div.menu ul > li.active:nth-child(3) ~ li:last-child::after,
+
 div.menu ul > li.navitem:nth-child(3):hover ~ li:last-child::after {
+    top: -9rem;
+    visibility: visible;
+    border-right-color: #bb0000; 
+}
+
+div.menu ul > li.active:nth-child(4) ~ li:last-child::after
+,div.menu ul > li.navitem.active:nth-child(4):hover ~ li:last-child::after{
     top: -6rem;
     visibility: visible;
+    border-right-color: white; 
 }
-div.menu ul > li.active:nth-child(4):last-child::after,
-div.menu ul > li.navitem:nth-child(4):last-child:hover::after {
+
+div.menu ul > li.navitem:nth-child(4):hover ~ li:last-child::after {
+    top: -6rem;
+    visibility: visible;
+    border-right-color: #bb0000; 
+}
+
+div.menu ul > li.active:nth-child(5):last-child::after
+, div.menu ul > li.navitem.active:nth-child(5):last-child:hover::after{
     top: -3rem;
     visibility: visible;
+    border-right-color: white; 
+}
+
+div.menu ul > li.navitem:nth-child(5):last-child:hover::after {
+    top: -3rem;
+    visibility: visible;
+    border-right-color: #bb0000; 
 }
 
 div.menu > * {
-    transition: transform 0.4s ease;
+    transition: transform 0.3s ease;
 }
 
 /* SVGs */

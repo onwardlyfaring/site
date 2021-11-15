@@ -38,11 +38,33 @@ module.exports = {
                 "onwardBackground": "#c9deff",
                 "onwardExternalLinkColor": "#cc4f7f", 
                 "onwardVeryLightBlue": "#e1ecff",
-                "onwardLightBlue": "#d4e5fe",
                 "onwardVeryDarkBlue": "#56647b",
-                "onwardPurplish": "#d6d7f5",
-                "onwardYellowish": "#f9ffc9", 
                 "onwardLightYellowish": "#fcffe4"
+                
+                , blackberry : {
+                    lightest: "#fdf8f8",
+                    light: "#bb0000", 
+                    DEFAULT: "#800000" 
+                }
+                , onwardPurplish : {
+                    DEFAULT: "#d6d7f5",
+                    darker: "#adafeb",
+                    darkerr: "#7073dc",
+                    darkerrr: "#3337cd",
+                    darkerrrr: "#16195b",
+                    test: "#56369f"
+                }
+
+                , onwardYellowish: {
+                    lighter: "#fcffe4",
+                    DEFAULT: "#f9ffc9"
+                }
+
+                , onwardLightBlue: {
+                    lighter: "#f5f8ff",
+                    DEFAULT: "#d4e5fe"
+                }
+
             }
 
             , backgroundColor: (theme) => ({
