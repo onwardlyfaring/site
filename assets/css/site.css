@@ -325,7 +325,7 @@ a.postlistheading:hover,
 .postlist a:hover,
 #recents a:hover,
 #top-bar a:hover {
-    @apply text-red-500 underline;
+    @apply text-onwardPurplish-darker underline;
 }
 
 input[type="search"]::-webkit-search-cancel-button {

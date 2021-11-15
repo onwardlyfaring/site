@@ -48,11 +48,11 @@ module.exports = {
                 }
                 , onwardPurplish : {
                     DEFAULT: "#d6d7f5",
-                    darker: "#adafeb",
-                    darkerr: "#7073dc",
-                    darkerrr: "#3337cd",
-                    darkerrrr: "#16195b",
-                    test: "#56369f"
+                    // darker: "#adafeb",
+                    // darkerr: "#7073dc",
+                    // darkerrr: "#3337cd",
+                    // darkerrrr: "#16195b",
+                    darker: "#56369f"
                 }
 
                 , onwardYellowish: {
