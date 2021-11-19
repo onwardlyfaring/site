@@ -96,7 +96,8 @@ module.exports = {
             gridTemplateColumns: {
                 small: "0 auto",
                 regular: "minmax(auto, 0fr) auto;",
-                topbar: "auto 18rem"
+                topbar: "auto 18rem",
+                simple: "auto"
             },
             lineHeight: {
                 pagination: "1.8rem",

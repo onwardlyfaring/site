@@ -1,0 +1,25 @@
+
+{% macro collectionCircles(myCollection) %}
+<div class = "collection">
+<div class="placeholder"> 
+</div>
+{% for snippet in myCollection %}
+  <section>
+  <div class="section-cover">
+    {{snippet.data.date}}
+  </div>
+  <div class="section-content">
+    <button class="close">close</button>
+    <div class="section-header">
+      <h3>{{snippet.date.toLocaleString("en-US", {month:"short", day: 'numeric', timeZone: 'UTC'}) | lower}}: {{snippet.data.title | safe}}</h3>
+      <!-- <h1>{{snippet.data.title | safe}}</h1> -->
+    </div>
+    <div class="section-main">
+      {{snippet.templateContent | safe}}
+    </div>
+  </div>
+</section>
+{% endfor %}
+  </div>
+
+{% endmacro %}
