@@ -77,28 +77,16 @@
     border-radius: 8%;
     background-color: var(--thisColor);
     z-index: 1;
-
-
     height: 500px;
     width: 440px;
     position: fixed;
     padding: 0 25px 20px 25px;
-    left: 0;
+    left: 18rem;
     right: 0;
     top: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -250px;
-/* 
-    position: fixed;
-    left: 50%;
-    top: 50%;
-
-    height: 500px;
-    margin-top: -250px;
-
-    width: 440px;
-    margin-left: -220px; */
   }
   
   section.active .section-cover{
@@ -138,7 +126,7 @@
   
   .section-main{
     /* height: 425px; */
-    overflow-y: auto;
+    overflow-y: scroll;
     padding: 0;
     grid-row: 2/2
   }
@@ -155,16 +143,24 @@
       margin-top: -30vh;
       border-radius: 10vh;
     }
-    .section-main {
-      height: 50vh;
+    section.active .section-content{
+      height: 55vh;
+  
     }
   }
-  
-  @media only screen and (max-width: 500px){
+
+  @media only screen and (max-width: 1280px){
     section.active{
+      left:14rem;
+    }
+  }
+  @media only screen and (max-width: 640px){
+    section.active{
+      left:0;
       width: 80vw;
     }
   }
+
   
   section:nth-of-type(1){
     order: 1;
