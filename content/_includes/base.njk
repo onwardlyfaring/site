@@ -4,15 +4,14 @@
         {% include "head.njk" %}
         {% include "json-ld.njk" %}
     </head>
-    <body class="dark:text-gray-300 dark:bg-dark-body bg-onwardYellowish-lighter text-gray-900 tracking-wider font-light overflow-x-hidden sm:overflow-auto">
+    <body class="dark:text-gray-300 dark:bg-dark-body bg-onwardYellowish-lighter text-gray-900 tracking-wider font-light sm:overflow-auto">
         <div class="grid grid-flow-col grid-cols-small sm:grid-cols-regular h-screen w-full">
             
-            <div id="sidebar" class="font-spacious sidebar sticky transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
+            <div id="sidebar" class="z-30 font-spacious sidebar sticky transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
                 {% include "sidebar.njk" %}
             </div>
 
-            <div id="right-area" class="font-mySans overflow-x-hidden sm:overflow-auto  sm:translate-x-0 sm:transition-none">
-              {{ exampl }}  
+            <div id="right-area" class="font-mySans sm:overflow-auto  sm:translate-x-0 sm:transition-none">
                 <div id="top-bar" class="h-12 z-10 sm:hidden bg-onwardLightBlue dark:bg-dark-heading  sm:sticky top-0 border-gray-600 border-b-1 dark:border-transparent border-opacity-30 shadow-lg">
                     <div class="grid grid-flow-col grid-cols-auto md:grid-cols-topbar max-w-content">
                         <div id="mobile-top-bar" class="flex leading-12 sm:hidden col-span-2">
@@ -73,7 +72,7 @@
                 </div>
             </div>
         </div>
-        <div id="footer" class="hidden lg:block h-4 z-10 fixed bottom-0 w-full 
+        <div id="footer" class="hidden lg:block h-4 z-40 fixed bottom-0 w-full 
         bg-onwardPurplish dark:bg-black border-gray-600 
         text-gray-600
         border-b-1 dark:border-transparent border-opacity-30 shadow-lg"> 
