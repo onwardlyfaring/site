@@ -410,9 +410,9 @@ html[class="dark"] ul.pagination div.active {
     @apply text-gray-800;
 }
 
-#top-bar.hide {
+/* #top-bar.hide {
     @apply transform -translate-y-12;
-}
+} */
 
 .additions a {
     @apply no-underline;
