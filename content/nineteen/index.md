@@ -1,5 +1,5 @@
 ---
-layout: page.njk
+layout: playing.njk
 title: nineteen
 templateEngineOverride: njk
 include_aside: false 

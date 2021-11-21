@@ -12,7 +12,6 @@
             </div>
 
             <div id="right-area" class="font-mySans overflow-x-hidden sm:overflow-auto transition-transform transform sm:translate-x-0 sm:transition-none">
-              {{ exampl }}  
                 <div id="top-bar" class="h-12 z-10 sm:hidden bg-onwardLightBlue dark:bg-dark-heading transition-transform duration-200 ease-in sm:sticky top-0 border-gray-600 border-b-1 dark:border-transparent border-opacity-30 shadow-lg">
                     <div class="grid grid-flow-col grid-cols-auto md:grid-cols-topbar max-w-content">
                         <div id="mobile-top-bar" class="flex leading-12 sm:hidden col-span-2">
@@ -49,9 +48,7 @@
                 <div class="dark:bg-dark-body grid grid-flow-col grid-cols-auto  xl:grid-cols-simple max-w-content mb-12">
                 {% endif %}
 
-                    <main class="min-w-0">
-                        {{ content | safe }}
-                    </main>
+                    
                     <div id="search-container" class="hidden truncate">
                         <div class="postlist pb-8 mt-8 font-light dark:font-extralight pt-4 min-w-0">
                             <div id="search-mobile-title" class="hidden leading-12 align-middle text-gray-500 dark:text-gray-400">
@@ -72,6 +69,17 @@
                     {% endif %}
                 </div>
             </div>
+
+            <main class="min-w-0 font-mySans overflow-x-hidden">
+                        <div class="content page pt-4">
+                            {{ content | safe }}
+                        </div>
+            </main>
+
+
+
+
+            
         </div>
         <div id="footer" class="hidden lg:block h-4 z-40 fixed bottom-0 w-full 
         bg-onwardPurplish dark:bg-black border-gray-600 
