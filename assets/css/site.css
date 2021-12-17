@@ -7,7 +7,11 @@ img {
 }
 
 /* Left sidebar */
-
+#sidebar-contents {
+    max-height: 100vh;
+    min-height: 40em;
+    bottom: 60px;
+}
 .sidebar .navitem {
     @apply text-gray-400 hover:text-blackberry-light px-1;
 }
