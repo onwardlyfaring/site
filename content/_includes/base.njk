@@ -6,15 +6,16 @@
     </head>
     <body class="dark:text-gray-300 dark:bg-dark-body bg-onwardYellowish-lighter text-gray-900 tracking-wider font-light overflow-x-hidden sm:overflow-auto">
         
-        <div class="grid grid-flow-col grid-cols-small sm:grid-cols-regular h-screen w-full">
-            
-            <div id="sidebar" class="z-30 font-spacious sidebar transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
+        <div class="h-screen w-full">
+            <div id="sidebar" class="w-56 xl:w-72 z-30 fixed font-spacious sidebar transition-transform transform -translate-x-56 sm:translate-x-0  sm:transition-none">
                 {% include "sidebar.njk" %}
             </div>
-
+            <div id = "RA" class= "ml-0 sm:ml-56">
             {% block rightArea %}
             {% endblock %}
+            </div>
         </div>
+
         <div id="footer" class="hidden lg:block h-4 z-40 fixed bottom-0 w-full 
         bg-onwardPurplish dark:bg-black border-gray-600 
         text-gray-600
