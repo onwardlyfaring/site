@@ -180,7 +180,7 @@ html:not(.dark) svg.lighttoggle {
 
 .content,
 .postlist {
-    @apply mt-8 mx-8 lg:mr-32 lg:ml-32 leading-relaxed tracking-wider;
+    @apply mt-8 mx-2 sm:mx-8 lg:mx-16 leading-relaxed tracking-wider;
 }
 
 .content a {
