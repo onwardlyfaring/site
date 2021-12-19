@@ -3,14 +3,14 @@ require("dotenv").config();
 module.exports = {
     // Website title, shown in left sidebar and in page title
     title: "onwardly faring",
-    // Site URL to generate absolute URLs. Used across the board.
-    url: process.env.URL || "http://localhost:8080",
+    // Site URL to generate absolute URLs. Used across the board. 
+    url: "https://onwardlyfaring.com" || process.env.URL || "http://localhost:8080",
     // Profile image for left sidebar
     image: "/assets/images/blackberry5.svg",
     // Image alt text for left sidebar
     imageAlt: "a blackberry",
     // Author name, shown in left sidebar, and used in JSON-LD
-    author: "matisse peppet",
+    author: "matisse catherine",
     // Site description, shown below site image (optional)
     description: "exploring with heart",
     // OpenGraph default image, in case you don't have an `image`

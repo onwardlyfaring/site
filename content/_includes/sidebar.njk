@@ -12,20 +12,26 @@
     </div>
     <div class="menu">
         <ul class="list-none pl-0">
-            <li class="navitem text-center uppercase {{ page.url | isHomeLink('/') }}">
+            {# <li class="navitem text-center uppercase {{ page.url | isHomeLink('/') }}">
                 <a href="/" class="block no-underline">Home</a>
-            </li>            
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/posts') }}">
-                <a href="/posts/" class="block no-underline">Posts</a>
+            </li>             #}
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/noticing') }}">
+                <a href="/noticing/" class="block no-underline">Notice</a>
             </li>
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/about') }}">
-                <a href="/about/" class="block no-underline">About</a>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/reading') }}">
+                <a href="/reading/" class="block no-underline">Read</a>
             </li>
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/why') }}">
-                <a href="/fossils/" class="block no-underline">Why</a>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/thinking') }}">
+                <a href="/thinking/" class="block no-underline">Think</a>
             </li>
-            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/archive') }}">
-                <a href="/archive/" class="block no-underline">Archive</a>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/writing') }}">
+                <a href="/writing/" class="block no-underline">Write</a>
+            </li>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/acting') }}">
+                <a href="/acting/" class="block no-underline">Act</a>
+            </li>
+            <li class="navitem text-center uppercase {{ page.url | isActiveLink('/connecting') }}">
+                <a href="/connecting/" class="block no-underline">Connect</a>
             </li>
         </ul>
     </div>

@@ -1,7 +1,7 @@
 ---
 eleventyExcludeFromCollections: true
 layout: page.njk
-title: Why
+title: To Read
 templateEngineOverride: njk
 ---
 
