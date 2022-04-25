@@ -224,6 +224,10 @@ html:not(.dark) svg.lighttoggle {
     @apply text-lg mt-6;
 }
 
+.content h4 {
+    @apply text-base mt-6 font-bold;
+}
+
 .content ol {
     @apply list-decimal pl-10 leading-8;
 }
