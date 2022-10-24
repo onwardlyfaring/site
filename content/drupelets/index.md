@@ -3,7 +3,7 @@ layout: page.njk
 title: Drupelets 
 ---
 
-newsletter
+# drupelets
 
 <details>
 <summary>issue i</summary>

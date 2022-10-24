@@ -30,6 +30,7 @@ title: Holding Dear
 
 ## Apps 
 - Anki
+- iPhone "flashcard" app 
 
 
 ## Math

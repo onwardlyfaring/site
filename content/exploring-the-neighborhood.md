@@ -3,7 +3,7 @@ layout: page.njk
 title: Exploring the Neighborhood
 ---
 # Exploring the Neighborhood 
-_Written March-May 2020, for a literature class on nature writing_
+_Written March-May 2020_
 <hr>
 
 Sometimes in March when I look at the creek, it seems empty. There’s the water. There’s the plants. There’s the birdcalls. But everything seems somehow static and predictable. It doesn’t seem like enough to count — not as nature, not as life. I try to remind myself of the manifold microorganisms which are undoubtedly before me. I try to remind myself that what looks dead may not be. But I just don’t see this place as teeming with life. It’s green and brown; green and brown.
