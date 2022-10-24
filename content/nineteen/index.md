@@ -14,10 +14,10 @@ include_aside: false
 {% block circleContents %}
 
 <h1> to be nineteen and embodied </h1>
-{{macro.collectionCircles(collections.aLover)}}
+{{macro.collectionCircles(collections.embodiment)}}
 
 <h1> to be nineteen and not in love </h1>
-{{macro.collectionCircles(collections.embodiment)}}
+{{macro.collectionCircles(collections.aLover)}}
 
 <h1> to be nineteen and familiar with a place </h1>
 {{macro.collectionCircles(collections.familiarSpace)}}
