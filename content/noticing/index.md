@@ -4,3 +4,5 @@ title: To Notice
 ---
 
 ## notice
+
+mini blogs
