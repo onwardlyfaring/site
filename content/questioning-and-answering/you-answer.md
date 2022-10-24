@@ -11,7 +11,7 @@ title: I ask the questions, you answer
 
 <hr class=invisible>
 <h4 class="question"></h4>
-<form class = "gform invisible" id = "response-form" action="https://script.google.com/macros/s/AKfycbzH7a7E5Dax5FW--3qLomuzciDDZtvV7CDFbDkQCm_kjMX_4kFgA5He/exec" method="POST">
+<form class = "gform invisible" id = "response-form" action="https://script.google.com/macros/s/AKfycbzXOpOGUv7e9Pj5TCHHCb6d6_Sy0OEvqN9g4-bPSH3Qnj4g8KalXpxoAa5Uobi_WWT4Hw/exec" method="POST">
   <input type="text" id="what-question" name="question" class = "hidden" value="question-answer">
   <textarea name="answer" rows="5" cols="50"  class = "px-2 py-0.5 rounded border-1 border-onwardVeryDarkBlue font-spacious bg-white" required></textarea>
   <br>
