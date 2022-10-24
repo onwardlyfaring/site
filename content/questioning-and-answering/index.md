@@ -3,6 +3,9 @@ layout: page.njk
 title: Q & A
 ---
 
-i'll ask the questions and you answer
-OR
-you can ask the questions, and i'll answer
+## Q & A
+
+You've got two classic Q&A options:
+1. [I'll ask the questions and you answer](you-answer)
+2. [You ask the questions, and I'll answer](you-ask)
+
