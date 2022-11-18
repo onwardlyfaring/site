@@ -1,6 +1,6 @@
 ---
 eleventyExcludeFromCollections: true
-layout: typical_base.njk
+layout: page.njk
 include_aside: true
 title: To Notice
 pagination:
@@ -13,11 +13,8 @@ meta:
     value: noindex
 permalink: "/noticing/"
 ---
-<div class = "postlist">
-<div class = "pt-4 pb-3">
-<span class = "text-xl ">Notice</span>
-<span class = "text-xs text-gray-400 dark:text-gray-500">(little blogs; written as if quick to perish)</span>
-</div>
+
+<h2 class = "pb-3">Observations <span class = "text-xs text-gray-400 dark:text-gray-500">(little blogs, written as if quick to perish)</span> </h2>
 
 <div class=" pb-8 font-light dark:font-extralight ">
     {% for post in noticings %}
@@ -31,7 +28,7 @@ permalink: "/noticing/"
     </div>
     {% endfor %}
 </div>
-</div>
+
 
 {# 
 <div class="mt-2 mx-8 lg:ml-32">

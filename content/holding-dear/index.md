@@ -3,34 +3,34 @@ layout: page.njk
 title: Holding Dear
 ---
 
-# Some things I love
+## Some things I love
 
-## Books 
+### Books 
 - Saving God by Mark Johnston 
 
-## Poems
+### Poems
 
-## Music 
+### Music 
 - Owen Pallet playing "In Conflict" live in London, 2013-08-11 ?
 - Voice in Headphones
 - 
 
-## Psychological Tools 
+### Psychological Tools 
 - RAIN
 - Noticing that the present is okay, actually, maybe even pretty good, actually 
 - Adam's emotions activity
 
-## Websites 
+### Websites 
 
-## Essays
+### Essays
 
-## Concepts 
+### Concepts 
 - Ironic understanding 
 
 
-## Apps 
+### Apps 
 - Anki
 - iPhone "flashcard" app 
 
 
-## Math
+### Math

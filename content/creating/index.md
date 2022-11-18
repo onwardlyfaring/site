@@ -3,7 +3,7 @@ layout: page.njk
 title: creating
 ---
 
-a space for projects, finished and in progress
+## projects, finished and in progress
 
  - on growing up: projects from college 
     - [exploring the neighborhood](/exploring-the-neighborhood): a senior year essay. written for a literature class on nature writing that became the central activity of my life when the pandemic hit; about annie dillard and the town i grew up in and birds and what it means to be human.
