@@ -160,7 +160,10 @@ function extractExcerpt(article) {
 
     const content = article.templateContent;
 
-    const excerpt = content.slice(0, content.indexOf("\n"));
-
+    var excerpt = content.slice(0, content.indexOf("\n"));
+    if (article.data.tags.includes("noticings")){
+        excerpt= article.data.abstract;
+    } 
+    
     return excerpt;
 }
