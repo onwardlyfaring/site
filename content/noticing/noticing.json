@@ -1,5 +1,5 @@
 {
-    "layout": "simple-post.njk", 
+    "layout": "post.njk", 
     "tags": ["posts", "noticings"], 
     "permalink": "posts/{{ title | slug }}/"
 }

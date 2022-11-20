@@ -21,10 +21,10 @@ permalink: "/noticing/"
     <div class = "pb-2">
 
 		<span>
-		<a class = "text-indigo-900 dark:text-indigo-300 dark:font-light font-normal postlistheading" href="{{ post.url | url }}">{{ post.data.title }}</a>
+		<a class="text-green-600 dark:text-indigo-300 dark:font-light font-normal postlistheading" href="{{ post.url | url }}">{{ post.data.title }}</a>
 		</span>
 		<span class="text-gray-900 dark:text-gray-400"> {% excerpt post %} </span>
-		<span class = "text-xs text-gray-400 dark:text-gray-500"> ({{ post.date | readableDate }}) </span>
+		<span class="text-xs text-gray-400 dark:text-gray-500"> ({{ post.date | readableDate }}) </span>
     </div>
     {% endfor %}
 </div>

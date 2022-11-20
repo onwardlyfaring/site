@@ -197,7 +197,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content a {
-    @apply text-blackberry dark:text-indigo-300 underline;
+    @apply text-onwardExternalLinkColor dark:text-indigo-300 underline;
 }
 
 .content p {
@@ -213,7 +213,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content h1 {
-    @apply text-2xl font-medium dark:font-light py-6 mt-4;
+    @apply text-2xl font-medium dark:font-light mt-6;
 }
 
 .content h2 {
