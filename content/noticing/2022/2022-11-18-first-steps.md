@@ -9,6 +9,6 @@ The issue, maybe, is that taken on its own, each of these activities or identiti
 
 It is in the spirit of widening my considerations toward action that I start this website. Do I want to be a mediocre blogger? -- Maybe I can be a mediocre blogger who wants to surprise herself, who hopes that if she writes more, maybe she'll get better, who wants to have children but not yet, who analyzes enough to be a mathematician though not enough to be a philosopher, who cultivates rich relationships with friends in person.... It doesn't really matter, does it? The reason I'm starting this website is that the only way I can envision myself feeling content with any career is if I maintain an unrelated, substantial, interesting personal website on the side. Is that ridiculous? Maybe eventually I'll come up with some other vision in which I'm proud of myself, I don't know, maybe I don't need a vision. Lacking that, though, I need to get started. So may these be the first steps!
 
-</p><div class="text-center">***</div><p>
+{% include invocation-delimited.njk %}
 
 May we find the agency in ourselves to take loving action in the world. May our varied commitments nourish and sustain us; may we yet have the wisdom to know what is most dear to us and the courage to prioritize. May we burn through our lighter interests to find new ones. And whether we doubt ourselves or not, may we be kind, and keep going.
