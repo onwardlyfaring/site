@@ -1,0 +1,11 @@
+
+{% macro dearsummaries(myCollection) %}
+
+
+{% for note in myCollection %}
+<h4>{{note.data.title | safe}}</h4> 
+<div class="text-xs text-gray-400 dark:text-gray-400"> {% excerpt note %} </div>
+{% endfor %}
+
+
+{% endmacro %}

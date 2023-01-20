@@ -1,0 +1,7 @@
+---
+title: FlipStudy
+tags: 
+  - technology
+number: 1
+---
+flipstudy believes that it is a flashcard app. that is unfairly constraining; it is probably not a very good flashcard app. but it is a very cozy home for text writ large. i keep poems in mine, and some affirmations. it is nice to have a place on my phone that will show me a screen that is just a nice color and the words, "I know it's not done yet, but I already like it" or the full text of whitman's "A noiseless patient spider." the interface is simple; flipstudy is trying to simulate a stack of index cards, without adding additional functionality. the main screen is just blocks of color with the titles of my decks, and tapping into one gives a sequence of cards. there are no buttons. there is no guiding text. when going through cards, i see essentially nothing that i myself did not put in the app. correspondingly, the interface for adding cards is clunky - lots of swiping up to see the menus that allow me to edit or reorder or change the color of cards - and as far as i can tell it all has to be done on mobile, with no shortcuts. but that's fine; i rarely want to add or edit cards, now that i've done the basic setup. the other downside of the app is that the app icon is pretty busy and says, like, e=mc^2. but i have a shortcut called "calm words" set up on my iphone that just opens the app, and i put an icon for the shortcut (rather than for the app itself) on my iphone home screen, so the whole experience now is very cozy. 
