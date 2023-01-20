@@ -69,7 +69,7 @@ module.exports = {
             ,
             fontFamily : {
                 'spacious': ['Consolas', '"Andale Mono"', '"Trebuchet MS"', '"Lucida Console"', 'Times',  'sans-serif'],
-                'mySans': ['Geneva', 'Calibri', '"Trebuchet MS"',  'Helvetica', 'Arial', '"Century Gothic"', 'sans-serif']
+                'mySans': ['Helvetica','Geneva', 'Calibri', '"Trebuchet MS"', 'Arial', '"Century Gothic"', 'sans-serif']
             }
 
             , backgroundColor: (theme) => ({
