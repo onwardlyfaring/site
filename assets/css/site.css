@@ -193,7 +193,7 @@ html:not(.dark) svg.lighttoggle {
 
 .content,
 .postlist {
-    @apply mt-8 mx-2 sm:mx-8 lg:mx-16 leading-relaxed tracking-wider;
+    @apply mt-8 mx-2 sm:mx-8 lg:mx-16 tracking-wider;
 }
 
 .content a {
@@ -229,11 +229,11 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content ol {
-    @apply list-decimal pl-10 leading-8;
+    @apply list-decimal pl-10;
 }
 
 .content ul {
-    @apply list-disc pl-10 leading-8;
+    @apply list-disc pl-10 ;
 }
 
 .content table {
