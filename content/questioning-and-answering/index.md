@@ -1,6 +1,8 @@
 ---
 layout: page.njk
 title: Q & A
+tags: 
+  - page
 ---
 
 ## Q & A

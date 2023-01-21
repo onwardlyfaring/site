@@ -12,4 +12,9 @@ permalink: /sitemap.xml
     <priority>{{ item.data.sitemapPriority | default(0.8) }}</priority>
   </url>
 {% endfor %}
+{% for item in collections.page %}
+  <url>
+    <loc>{{ siteconfig.url }}{{ item.url }}</loc>
+  </url>
+{% endfor %}
 </urlset>

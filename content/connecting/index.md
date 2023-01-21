@@ -1,7 +1,8 @@
 ---
 layout: page.njk
 title: To Connect
-
+tags: 
+  - page
 ---
 
 ## connect

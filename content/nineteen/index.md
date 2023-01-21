@@ -3,6 +3,8 @@ layout: fixedRA_base.njk
 title: nineteen
 templateEngineOverride: njk
 include_aside: false 
+tags: 
+  - page
 ---
 {% import "./macros.njk" as macro with context %}
 
