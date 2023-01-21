@@ -1,6 +1,8 @@
 ---
 layout: page.njk
 title: Exploring the Neighborhood
+tags: 
+  - post
 ---
 # Exploring the Neighborhood 
 _Written March-May 2020_
