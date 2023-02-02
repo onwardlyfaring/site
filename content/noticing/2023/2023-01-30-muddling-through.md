@@ -1,7 +1,7 @@
 ---
 title: Muddling Through Together
 date: 2023-01-30
-abstract: "Christian love may not be pretty."
+abstract: "Christian love may not be so pretty."
 ---
 The seemingly-relentless cycle of discerning with potential housemates has at last relented: my house is now full. The first emotion was relief. It felt like the house had arrived, finally, to a time of settling into stability. We each are here, if not for the long haul, at least for the medium-term. Life in the living it, though, always seems to collapse or expand the scope of my concern to the scope where there are problems. And so it has become clear that embedding two strangers into the intimate rhythms of my domestic life is distinctly a beginning. We have arrived only to some new incline.
 
