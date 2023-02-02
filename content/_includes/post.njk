@@ -6,7 +6,7 @@ include_aside: true
 <div class="post border-solid border-b-1 border-gray-700 pb-6">
   	<h1>{{ title }}</h1>
   	<div class="mb-4 flex text-sm font-light dark:font-extralight">
-		<div class="flex text-right text-gray-700">
+		<div class="flex text-right text-gray-700 dark:text-gray-400">
         	{{ date | readableDate }}
 		</div>
 	</div>
@@ -20,13 +20,13 @@ include_aside: true
 	{% set nextPost = collections.posts | getNextCollectionItem(page) %}
 	<div class="pt-4 text-right"> 
 		{% if previousPost.url %}
-		<a href="{{ previousPost.url }}" style="color:#000815"> &larr; <i class="underline">previous page</i></a>
+		<a href="{{ previousPost.url }}"> <span class="underline text-onwardFontColor dark:text-gray-300">&larr; <i>previous page</i></span></a>
 		{% endif  %}
 		{% if previousPost.url and nextPost.url %}
 		 &middot;
 		{% endif  %}
 		{% if nextPost.url %}
-		<a style="color:#000815" href="{{ nextPost.url }}"><i class="underline">next page</i> &rarr;</a> 
+		<a href="{{ nextPost.url }}"><span class="underline text-onwardFontColor dark:text-gray-300" ><i>next page</i> &rarr;</span></a> 
 		{% endif  %}
 	</div>
 </div>
