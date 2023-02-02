@@ -20,13 +20,13 @@ include_aside: true
 	{% set nextPost = collections.posts | getNextCollectionItem(page) %}
 	<div class="pt-4 text-right"> 
 		{% if previousPost.url %}
-		<a href="{{ previousPost.url }}"> <span class="underline text-onwardFontColor dark:text-gray-300">&larr; <i>previous page</i></span></a>
+		<a href="{{ previousPost.url }}"> <span class="underline text-onwardFontColor dark:text-gray-400">&larr; <i>previous page</i></span></a>
 		{% endif  %}
 		{% if previousPost.url and nextPost.url %}
 		 &middot;
 		{% endif  %}
 		{% if nextPost.url %}
-		<a href="{{ nextPost.url }}"><span class="underline text-onwardFontColor dark:text-gray-300" ><i>next page</i> &rarr;</span></a> 
+		<a href="{{ nextPost.url }}"><span class="underline text-onwardFontColor dark:text-gray-400" ><i>next page</i> &rarr;</span></a> 
 		{% endif  %}
 	</div>
 </div>
