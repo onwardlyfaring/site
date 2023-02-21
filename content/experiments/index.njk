@@ -12,9 +12,8 @@ hi there
 <h1> to be nineteen and embodied </h1>
 
 {% for exp in collections.experiments %}
-    {{ exp.url }}
-    boop bop 
+  <div class="border p-1 text-green-400">
     {{ exp.templateContent | safe }}
-    
+  </div>
 
 {% endfor %}

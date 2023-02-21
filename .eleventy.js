@@ -5,22 +5,14 @@ const { MD5 } = require("crypto-js");
 const { URL } = require("url");
 const { readFileSync } = require("fs");
 const siteconfig = require("./content/_data/siteconfig.js");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-// const card = require("./content/_data/experiment-shortcodes.js");
+const markdownIt = require('./_11ty/markdown.js');
+const experimentShortcodes = require("./_11ty/experiment-shortcodes.js");
+
 
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
-    eleventyConfig.setLibrary(
-        "md",
-        markdownIt({
-            html: true,
-            xhtmlOut: true,
-            linkify: true,
-            typographer: true
-        }).use(markdownItAnchor)
-    );
+    eleventyConfig.setLibrary('md', markdownIt);
 
     // Define passthrough for assets
     eleventyConfig.addPassthroughCopy("assets");
@@ -49,20 +41,27 @@ module.exports = function (eleventyConfig) {
         extractExcerpt(article)
     );
 
+    experimentShortcodes(eleventyConfig);
+
+
+
+    // eleventyConfig.addPairedShortcode('customShortcode', customShortcode);
+
     // eleventyConfig.addPairedShortcode("intentions", experiments);
     // eleventyConfig.addPairedShortcode("questions", experiments);
     // eleventyConfig.addPairedShortcode("notes", experiments);
     // eleventyConfig.addPairedShortcode("results", experiments);
 
-    eleventyConfig.addPairedShortcode("card", (type) => {
-        md = new markdownIt();
-        const content = md.render(type);
-        return `
-              <div class="card">
-            woot woot ${content}
-              </div>
-        `;
-    }); 
+    
+      
+    //   eleventyConfig.addPairedShortcode("card", (type) => {
+    //     const content = md.render(type);
+    //     return `
+    //           <div class="card">
+    //         woot woot ${content}
+    //           </div>
+    //     `;
+    // }); 
 
 
 
