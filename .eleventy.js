@@ -7,6 +7,8 @@ const { readFileSync } = require("fs");
 const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+// const card = require("./content/_data/experiment-shortcodes.js");
+
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
@@ -46,6 +48,23 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("excerpt", (article) =>
         extractExcerpt(article)
     );
+
+    // eleventyConfig.addPairedShortcode("intentions", experiments);
+    // eleventyConfig.addPairedShortcode("questions", experiments);
+    // eleventyConfig.addPairedShortcode("notes", experiments);
+    // eleventyConfig.addPairedShortcode("results", experiments);
+
+    eleventyConfig.addPairedShortcode("card", (type) => {
+        md = new markdownIt();
+        const content = md.render(type);
+        return `
+              <div class="card">
+            woot woot ${content}
+              </div>
+        `;
+    }); 
+
+
 
     // Set absolute url
     eleventyConfig.addNunjucksFilter("absoluteUrl", (path) => {

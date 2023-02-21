@@ -1,0 +1,20 @@
+---
+layout: page.njk
+title: Experiments
+tags: 
+  - page
+eleventyImport:
+  collections: ["experiments"]
+---
+
+hi there 
+
+<h1> to be nineteen and embodied </h1>
+
+{% for exp in collections.experiments %}
+    {{ exp.url }}
+    boop bop 
+    {{ exp.templateContent | safe }}
+    
+
+{% endfor %}
