@@ -17,6 +17,15 @@ const SHORTCODES = {
         const content = markdownIt.render(children);
         return `<div class="text-lg">${content}</div>`
     }
+    , contextualintentions: (children, contextName) => {
+        const content = markdownIt.render(children);
+        if (contextName == "summary") {
+            return `<div class="text-lg">sum sum  of ${content}</div>`;
+        } else if (contextName == "/experiments/exp1/") {
+            return "yes you did it "
+        }
+        return `<div class="text-xs">full context is ${contextName}, and child is ${content}</div>`;
+    },
 };
   
   
@@ -33,6 +42,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPairedShortcode('questions', SHORTCODES.questions);
     eleventyConfig.addPairedShortcode('notes', SHORTCODES.notes);
     eleventyConfig.addPairedShortcode('results', SHORTCODES.results);
+    eleventyConfig.addPairedShortcode('contextualintentions', SHORTCODES.contextualintentions);
 
 };
 
