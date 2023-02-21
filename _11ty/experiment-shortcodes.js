@@ -1,6 +1,30 @@
 const markdownIt = require('./markdown.js');
 
 const SHORTCODES = {
+    circle: (status = 'unchecked') => {
+        const radius = 8
+        const strokeWidth = 2
+        const halfStrokeWidth = strokeWidth / 2;
+        const diameter = radius * 2;
+        const size = diameter + strokeWidth;
+    
+        const svg_format_string = `style="height: ${size}px; width: ${size}px"
+        viewBox="0 0 ${size} ${size}" class="inline fill-onwardVeryDarkBlue stroke-onwardVeryDarkBlue stroke-${strokeWidth}"
+        xmlns="http://www.w3.org/2000/svg"`;
+        
+        var circle_format_string =  `cx="${radius + halfStrokeWidth}"
+        cy="${radius + halfStrokeWidth}"
+        r="${radius}"`;
+    
+        if (status == 'unchecked'){
+            circle_format_string += `
+            fill="none"`;
+        } else if (status != 'checked'){
+            circle_format_string += `
+            fill="green"`;
+        }
+        return `<svg `+svg_format_string+`> <circle `+circle_format_string+` /> </svg>`
+    }, 
     intentions: (children) => {
         const content = markdownIt.render(children);
         return `<div class="text-xs">${content}</div>`
@@ -38,6 +62,7 @@ const SHORTCODES = {
 
 
 module.exports = (eleventyConfig) => {
+    eleventyConfig.addShortcode('circle', SHORTCODES.circle);
     eleventyConfig.addPairedShortcode('intentions', SHORTCODES.intentions);
     eleventyConfig.addPairedShortcode('questions', SHORTCODES.questions);
     eleventyConfig.addPairedShortcode('notes', SHORTCODES.notes);

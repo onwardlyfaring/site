@@ -9,6 +9,12 @@ if (isProduction) {
 
 module.exports = {
     purge,
+    content: [
+        './content/**/*.{html,js}',
+        './assets/**/*.{html,js}',
+        './_site/**/*.{html,js}',
+      ],
+      
     darkMode: "class",
     plugins: [
         function ({ addUtilities }) {
