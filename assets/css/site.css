@@ -197,7 +197,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content a {
-    @apply text-onwardFontColor dark:text-indigo-300 underline decoration-onwardPurplish-darker decoration-dashed;
+    @apply text-onwardFontColor dark:text-gray-400 underline  decoration-dashed;
 }
 
 .content p {

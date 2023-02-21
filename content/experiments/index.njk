@@ -6,14 +6,7 @@ tags:
 eleventyImport:
   collections: ["experiments"]
 ---
+<h1 class="pb-5">{{title}}</h1>
 
-hi there 
-
-<h1> to be nineteen and embodied </h1>
-
-{% for exp in collections.experiments %}
-  <div class="border p-1 text-green-400">
-    {{ exp.templateContent | safe }}
-  </div>
-
-{% endfor %}
+{% import "./macros.njk" as macro with context %}
+{{macro.experimentSummaryCardList(collections.experiments)}}

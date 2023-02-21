@@ -1,0 +1,11 @@
+---
+layout: page.njk
+---
+
+<div class="border p-5 rounded-lg leading-snug bg-onwardYellowish-lighterr">
+<h2>{{title}}</h2>
+{% if progress %} {{ progress | statusCircles | safe }} {% endif %}
+<div class="grid gap-2 grid-cols-1 md:grid-cols-2">
+{{ content | safe }}
+</div>
+</div>

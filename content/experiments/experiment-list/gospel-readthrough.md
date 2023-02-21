@@ -1,12 +1,16 @@
 ---
 title: Read through the Gospels 
+layout: experimentDetails.njk
 startdate: 2023-02-22
 enddate: 2023-04-08
 status: inactive
+progress: OOOO
 tags: 
   - experiments
   - religion
 templateEngineOverride: njk
+intentionAbstract: "Read through the Gospels of Matthew, Mark, Luke and John during Lent to learn what we think Jesus said."
+questionAbstract: "Does my understanding of biblical Jesus match how I hear people talk about him?"
 ---
 
 {% intentions %}
@@ -18,9 +22,7 @@ I have strangely little familiarity with the Bible. I'm always surprised when I 
 * Are there passages in the four Gospels that will surprise me?
 {% endquestions %}
 {% notes %}
-notes from the experiment will go here
 {% endnotes %}
 {% results %}
-results of the experiment will go here
 {% endresults %}
 

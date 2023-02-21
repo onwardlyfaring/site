@@ -16,18 +16,18 @@ module.exports = {
       ],
       
     darkMode: "class",
-    plugins: [
-        function ({ addUtilities }) {
-            const extendUnderline = {
-                ".underline": {
-                    textDecoration: "underline",
-                    // "text-decoration-color": "text-indigo-300",
-                    "text-underline-position": "under"
-                }
-            };
-            addUtilities(extendUnderline);
-        }
-    ],
+    // plugins: [
+    //     function ({ addUtilities }) {
+    //         const extendUnderline = {
+    //             ".underline": {
+    //                 textDecoration: "underline",
+    //                 // "text-decoration-color": "text-indigo-300",
+    //                 "text-underline-position": "under"
+    //             }
+    //         };
+    //         addUtilities(extendUnderline);
+    //     }
+    // ],
     variants: {
         extend: {
             backgroundImage: ["dark"],
