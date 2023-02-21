@@ -56,6 +56,7 @@ module.exports = {
                 }
 
                 , onwardYellowish: {
+                    lighterr: "#FEFFF6",
                     lighter: "#fcffe4",
                     DEFAULT: "#f9ffc9"
                 }
