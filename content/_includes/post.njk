@@ -29,4 +29,14 @@ include_aside: true
 		<a href="{{ nextPost.url }}"><span class="underline text-gray-700 dark:text-gray-400" ><i>next page</i> &rarr;</span></a> 
 		{% endif  %}
 	</div>
+
+	{%- set relatedPosts = collections.all | related -%}
+	{%- if relatedPosts.length %}
+	
+	<div class="mt-4 mb-4 pt-4 pb-4 border-t border-onwardFontColor"> 
+	{% import "../experiments/macros.njk" as macro with context %}
+	{{macro.experimentSummaryCardList(relatedPosts)}}
+	</div>
+	{%- endif -%}
 </div>
+

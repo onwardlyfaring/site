@@ -3,7 +3,7 @@ title: Read through the Gospels
 layout: experimentDetails.njk
 startdate: 2023-02-22
 enddate: 2023-04-08
-status: inactive
+status: not yet started
 progress: OOOO
 tags: 
   - experiments
@@ -18,6 +18,7 @@ I have strangely little familiarity with the Bible. I'm always surprised when I 
 {% endintentions %}
 {% questions %}
 * What does Jesus say about wealth, work, and concern with accumulation?
+* What does Jesus say about religious law?
 * Does my understanding of biblical Jesus match better to the evangelical understanding of Jesus or the progressive Christian one? In what ways is biblical Jesus reminiscent of each?
 * Are there passages in the four Gospels that will surprise me?
 {% endquestions %}
