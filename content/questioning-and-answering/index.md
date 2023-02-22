@@ -30,7 +30,7 @@ permalink: /page/questions-and-answers/
 *** 
 ### You ask the questions, and I'll answer
 Questions people ask me that I don't have concise answers to:
-- [What do you mean when you say you live in an intentional community affiliated with a church?](/what-i-mean-by-intentional-community)
+- [What do you mean when you say you live in an intentional community affiliated with a church?](/2022/10/23/intentional-community/)
 - Why do you go to church? Are you Christian?
 
 ***
