@@ -3,6 +3,7 @@ layout: page.njk
 title: Exploring the Neighborhood
 tags: 
   - post
+permalink: /0000/exploring-the-neighborhood/
 ---
 # Exploring the Neighborhood 
 _Written March-May 2020_

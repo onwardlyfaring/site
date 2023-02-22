@@ -3,6 +3,7 @@ layout: page.njk
 title: Q & A
 tags: 
   - page
+permalink: /page/questions-and-answers/
 ---
 
 ## Q & A

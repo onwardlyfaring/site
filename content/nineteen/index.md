@@ -5,6 +5,7 @@ templateEngineOverride: njk
 include_aside: false 
 tags: 
   - page
+permalink: /0000/nineteen/
 ---
 {% import "./macros.njk" as macro with context %}
 

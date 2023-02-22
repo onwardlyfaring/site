@@ -1,6 +1,8 @@
 ---
 title: Read through the Gospels 
+permaword: lent2023
 layout: experimentDetails.njk
+addeddate: 2023-02-21
 startdate: 2023-02-22
 enddate: 2023-04-08
 status: not yet started

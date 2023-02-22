@@ -3,6 +3,7 @@ layout: page.njk
 title: Drupelets 
 tags: 
   - page
+permalink: /0000/drupelets/
 ---
 
 # drupelets

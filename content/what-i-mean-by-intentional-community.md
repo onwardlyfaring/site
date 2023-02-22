@@ -5,6 +5,7 @@ published: 2022-10-23
 lastupdated: 2022-10-23
 tags: 
   - post
+permalink: /2022/10/23/intentional-community/
 ---
 I live in a six-bedroom house; at capacity, six of us live here. We share food and split rent according to what we are able to pay. We have dinner together on Sunday nights. We often drive to church together on Sunday mornings. Our side yard is a community garden that we organize and tend to. We take care of the house we live in; we make it feel like home. I live in what is distinctly a household. 
 

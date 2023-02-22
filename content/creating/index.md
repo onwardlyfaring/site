@@ -3,6 +3,7 @@ layout: page.njk
 title: creating
 tags: 
   - page
+permalink: /page/projects/
 ---
 
 ## projects, finished and in progress

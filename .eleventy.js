@@ -108,22 +108,28 @@ module.exports = function (eleventyConfig) {
     });
 
     // Extracts the year from a post
-    eleventyConfig.addNunjucksFilter("year", function (post) {
+    eleventyConfig.addNunjucksFilter("postyear", function (post) {
         if (post && post.date) {
             return getYear(post.date);
         }
         return "n/a";
     });
 
-    // Extracts the day of a date
-    eleventyConfig.addNunjucksFilter("day", function (date) {
+    // Extracts the month of a date
+    eleventyConfig.addNunjucksFilter("postmonth", function (date) {
+        return format(date, "MMM");
+    });
+     // Extracts the day of a date
+     eleventyConfig.addFilter("day", function (date) {
         return format(date, "dd");
     });
 
-    // Extracts the month of a date
-    eleventyConfig.addNunjucksFilter("month", function (date) {
-        return format(date, "MMM");
+    eleventyConfig.addFilter("permalinkdate", function (date) {
+        return format(date, "yyyy/MM/dd");
     });
+   
+
+    
 
     // Extracts readable date of a date
     eleventyConfig.addNunjucksFilter("readableDate", function (date) {
