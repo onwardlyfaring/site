@@ -8,7 +8,6 @@ if (isProduction) {
 }
 
 module.exports = {
-    important: true,
     purge,
     content: { relative: true, files: [
         "./pages/**/*.{js,ts,jsx,tsx}",
