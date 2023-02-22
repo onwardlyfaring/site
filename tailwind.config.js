@@ -14,7 +14,8 @@ module.exports = {
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
         "./src/**/*.{html,js}",
-        "./_site/**/*.{html,js}"
+        "./_site/**/*.{html,js}", 
+        './**/*.{html,js}'
     ],
       
     darkMode: "class",
