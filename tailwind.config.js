@@ -12,7 +12,7 @@ module.exports = {
     content: [
         'content/**/*.{html,js}',
         '_site/**/*.{html,js}'
-    ]
+    ],
       
     darkMode: "class",
     // plugins: [
