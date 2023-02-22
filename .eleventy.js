@@ -1,4 +1,5 @@
-const { format, formatISO, getYear } = require("date-fns");
+const { format, formatISO, getYear} = require("date-fns");
+const {utcToZonedTime} = require("date-fns-tz");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginToc = require("eleventy-plugin-toc");
 const { MD5 } = require("crypto-js");
@@ -8,7 +9,10 @@ const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require('./_11ty/markdown.js');
 const experimentShortcodes = require("./_11ty/experiment-shortcodes.js");
 
-
+const formatInTimeZone = (date, fmt, tz) =>
+            format(utcToZonedTime(date, tz), 
+                    fmt, 
+                    { timeZone: tz });
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
@@ -117,15 +121,17 @@ module.exports = function (eleventyConfig) {
 
     // Extracts the month of a date
     eleventyConfig.addNunjucksFilter("postmonth", function (date) {
-        return format(date, "MMM");
+        return formatInTimeZone(date, "MMM", "UTC");
     });
      // Extracts the day of a date
      eleventyConfig.addFilter("day", function (date) {
-        return format(date, "dd");
+        return formatInTimeZone(date, "dd", "UTC");
     });
 
     eleventyConfig.addFilter("permalinkdate", function (date) {
-        return format(date, "yyyy/MM/dd");
+        const formattedTime = formatInTimeZone(date, "yyyy/MM/dd", "UTC");
+        return formattedTime;
+
     });
    
 
@@ -133,7 +139,7 @@ module.exports = function (eleventyConfig) {
 
     // Extracts readable date of a date
     eleventyConfig.addNunjucksFilter("readableDate", function (date) {
-        return format(date, "MMM dd, yyyy");
+        return formatInTimeZone(date, "MMM dd, yyyy", "UTC");
     });
 
     // Add custom hash for cache busting

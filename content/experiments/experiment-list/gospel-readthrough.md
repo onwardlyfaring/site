@@ -23,6 +23,7 @@ I have strangely little familiarity with the Bible. I'm always surprised when I 
 * What does Jesus say about religious law?
 * Does my understanding of biblical Jesus match better to the evangelical understanding of Jesus or the progressive Christian one? In what ways is biblical Jesus reminiscent of each?
 * Are there passages in the four Gospels that will surprise me?
+* Do I like the Gospels?
 {% endquestions %}
 {% notes %}
 {% endnotes %}

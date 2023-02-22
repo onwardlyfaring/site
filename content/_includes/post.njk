@@ -30,13 +30,13 @@ include_aside: true
 		{% endif  %}
 	</div>
 
-	{# {%- set relatedPosts = collections.all | related -%}
+	{%- set relatedPosts = collections.all | relatedExperiments -%}
 	{%- if relatedPosts.length %}
 	
 	<div class="mt-4 mb-4 pt-4 pb-4 border-t border-onwardFontColor"> 
 	{% import "../experiments/macros.njk" as macro with context %}
 	{{macro.experimentSummaryCardList(relatedPosts)}}
 	</div>
-	{%- endif -%} #}
+	{%- endif -%}
 </div>
 
