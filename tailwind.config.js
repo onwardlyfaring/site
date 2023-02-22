@@ -13,6 +13,12 @@ module.exports = {
         './content/**/*.{html,js}',
         './assets/**/*.{html,js}',
         './_site/**/*.{html,js}',
+        './0000/**/*.{html,js}',
+        './2022/**/*.{html,js}',
+        './2023/**/*.{html,js}',
+        './archive/**/*.{html,js}',
+        './page/**/*.{html,js}',
+        './posts/**/*.{html,js}',
       ],
       
     darkMode: "class",
