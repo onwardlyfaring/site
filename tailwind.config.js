@@ -9,7 +9,9 @@ if (isProduction) {
 
 module.exports = {
     purge,
-    content: [
+    content: {
+        relative: true,
+        files:[
         './content/**/*.{html,js}',
         './assets/**/*.{html,js}',
         './_site/**/*.{html,js}',
@@ -20,7 +22,8 @@ module.exports = {
         './archive/**/*.{html,js}',
         './page/**/*.{html,js}',
         './posts/**/*.{html,js}',
-      ],
+      ]
+    },
       
     darkMode: "class",
     // plugins: [
