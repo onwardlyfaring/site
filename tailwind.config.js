@@ -14,7 +14,6 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx,njk}",
         "./src/**/*.{html,js,njk}",
         "./_site/**/*.{html,js,njk}", 
-        './**/*.{html,js,njk}',
         './content/**/*.{html,js,njk}',
         './assets/**/*.{html,js,njk}',
         './_site/**/*.{html,js,njk}',
