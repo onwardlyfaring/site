@@ -4,7 +4,7 @@
     
   <div class="border p-5 rounded-lg leading-snug bg-onwardYellowish-lighterr">
     
-  <a href="{{ exp.url | url }}"><span class="text-xl font-bold text-onwardFontColor">{{exp.data.title}}</span></a> &nbsp; 
+  <a href="{{ exp.url | url }}"><span class="text-xl font-semibold text-onwardFontColor">{{exp.data.title}}</span></a> &nbsp; 
   {% if exp.data.progress %} {{ exp.data.progress | statusCircles | safe }} {% endif %}
 
     <div class="pt-5 grid gap-x-5 grid-cols-1 md:grid-cols-2">
