@@ -9,7 +9,7 @@ status: in progress
 progress: OOOOOO
 tags: 
   - experiments
-  - /2023/02/12/post/
+  - /distant-conversations/
   - friends
 templateEngineOverride: njk
 intentionAbstract: Deliberately ask some of my open questions in conversations with people I trust, seeking object-level discussion about their topics, rather than meta-level commentary. 

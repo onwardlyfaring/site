@@ -9,7 +9,7 @@ status: in progress
 progress: OOOOOO
 tags: 
   - experiments
-  - /2023/02/12/post/
+  - /distant-conversations/
   - friends
 templateEngineOverride: njk
 intentionAbstract: Actively ask about what is good in my friends' lives, and try to learn something new about them via these good things.

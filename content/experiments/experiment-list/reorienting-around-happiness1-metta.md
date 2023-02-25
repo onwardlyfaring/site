@@ -9,7 +9,7 @@ status: in progress
 progress: XOOOO OOOOO OOOOO OOOOO OOO
 tags: 
   - experiments
-  - /2023/02/12/post/
+  - /distant-conversations/
   - friends
 templateEngineOverride: njk
 intentionAbstract: Regulary (though lightly) practice lovingkindness meditation. 
