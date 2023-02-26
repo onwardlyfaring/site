@@ -9,7 +9,7 @@ permalink: /questions-and-answers/
 ## Q & A
 
 ### I ask the questions and you answer
-<link rel="stylesheet" href="/assets/q-and-a-styles.css">
+<!-- <link rel="stylesheet" href="/assets/q-and-a-styles.css"> -->
 
 <button class ="get-question rounded-xl py-px px-4 text-2xl border-1 border-onwardFontColor dark:border-gray-100 bg-onwardPurplish dark:bg-blackberry" type="submit">get a question!</button>
 
