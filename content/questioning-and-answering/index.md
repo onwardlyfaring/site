@@ -9,13 +9,12 @@ permalink: /questions-and-answers/
 ## Q & A
 
 ### I ask the questions and you answer
-<!-- <link rel="stylesheet" href="/assets/q-and-a-styles.css"> -->
 
 <button class ="get-question rounded-xl py-px px-4 text-2xl border-1 border-onwardFontColor dark:border-gray-100 bg-onwardPurplish dark:bg-blackberry" type="submit">get a question!</button>
 
-<hr class=invisible>
+<hr class="invisible">
 <h4 class="question"></h4>
-<form class = "gform invisible" id = "response-form" action="https://script.google.com/macros/s/AKfycbzXOpOGUv7e9Pj5TCHHCb6d6_Sy0OEvqN9g4-bPSH3Qnj4g8KalXpxoAa5Uobi_WWT4Hw/exec" method="POST">
+<form class = "invisible gform" id = "response-form" action="https://script.google.com/macros/s/AKfycbzXOpOGUv7e9Pj5TCHHCb6d6_Sy0OEvqN9g4-bPSH3Qnj4g8KalXpxoAa5Uobi_WWT4Hw/exec" method="POST">
   <input type="text" id="what-question" name="question" class = "hidden" value="question-answer">
   <textarea name="answer" rows="5" cols="50"  class = "px-2 py-0.5 rounded border-1 border-onwardVeryDarkBlue font-spacious bg-white dark:bg-gray-200 dark:text-gray-600" required></textarea>
   <br>
