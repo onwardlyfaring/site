@@ -28,6 +28,7 @@ In conversations with my friends, actively ask about what is good in their lives
 * Are there different conversational modes around "appreciating" vs "feeling blessed"?
 {% endquestions %}
 {% notes %}
+* Asked the what's-good question to a friend, got back an anecdote about online dating turned friendship that was quite sweet; and then got the question turned back on me, which I was unprepared for.
 {% endnotes %}
 {% results %}
 {% endresults %}
