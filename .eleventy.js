@@ -198,8 +198,9 @@ function extractExcerpt(article) {
     if (article.data.tags.includes("noticings")){
         excerpt= article.data.abstract;
     } else if (article.data.tags.includes("holdingdear")){
-        excerpt= content.slice(excerpt.indexOf(">")+1);
-        excerpt= excerpt.slice(0, excerpt.indexOf("<"));
+        excerpt= content.slice(excerpt.indexOf("<p>")+3);
+        excerpt= excerpt.slice(0, excerpt.indexOf("</p>"));
+        console.log(excerpt);
     }
     
     return excerpt;

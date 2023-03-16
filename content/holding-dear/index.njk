@@ -12,11 +12,12 @@ permalink: /things-i-love/
   <div class="border border-onwardFontColor p-5 rounded-lg leading-snug">
     
   <span class="text-xl font-semibold text-onwardFontColor">{{note.data.title}}</span> &nbsp; 
-    {{note.data.category}}
+    <span class="italic">{{note.data.category}}</span>
     {% if note.templateContent %}
-    <div class="pt-5 text-xs">
-      <details>
-      <summary>{% excerpt note %}</summary>
+    <div class="pt-5">
+      <details class="inline">
+      <summary class="pb-4">{% excerpt note %}
+      </summary>
       {% nonexcerpted note %}
       {# {{note.templateContent | safe}} #}
     </details>
