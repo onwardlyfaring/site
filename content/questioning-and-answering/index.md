@@ -8,44 +8,65 @@ permalink: /questions-and-answers/
 
 ## Q & A
 
-### I ask the questions and you answer
+<section class="mx-0 my-auto overflow-hidden" aria-label="carousel" Tabindex="0">
+  <div class="carousel__nav">
+    <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">I ask the questions and you answer</a> <br>
+    <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">You ask the questions, and I'll answer</a> <br>
+    <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">I ask the questions, and I also answer them</a> <br>
+    <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">I ask the questions, but they remain unanswered</a>
+  </div>
 
-<button class ="get-question rounded-xl py-px px-4 text-2xl border-1 border-onwardFontColor dark:border-gray-100 bg-onwardPurplish dark:bg-blackberry" type="submit">get a question!</button>
+  <div class="w-full flex overflow-x-scroll snap-x snap-mandatory scroll-smooth">
+    <div class="flex shrink-0 origin-center snap-start transition-transform scale-100 w-full relative" id="slide-1" aria-label="slide 1 of 5" tabindex="0">
+      <div class="inline">
+        <h3>I ask the questions and you answer</h3>
+        <button class ="get-question rounded-xl py-px px-4 text-2xl border-1 border-onwardFontColor dark:border-gray-100 bg-onwardPurplish dark:bg-blackberry" type="submit">get a question!</button>
+        <hr class="invisible">
+        <h4 class="question"></h4>
+        <form class = "invisible gform" id = "response-form" action="https://script.google.com/macros/s/AKfycbzXOpOGUv7e9Pj5TCHHCb6d6_Sy0OEvqN9g4-bPSH3Qnj4g8KalXpxoAa5Uobi_WWT4Hw/exec" method="POST">
+          <input type="text" id="what-question" name="question" class = "hidden" value="question-answer">
+          <textarea name="answer" rows="5" cols="50"  class = "px-2 py-0.5 rounded border-1 border-onwardVeryDarkBlue font-spacious bg-white dark:bg-gray-200 dark:text-gray-600" required></textarea>
+          <br>
+          <button type="submit" class="text-sm py-px px-4 rounded-xl border-1 border-onwardVeryDarkBlue bg-onwardPurplish dark:bg-blackberry">send answer</button>
+        </form>
+        <p id="js-form-sending" class="hidden">sending...</p>
+        <p id="js-form-response"></p>
+        <button class ="get-another-question hidden text-sm py-px px-4 rounded-xl border-1 border-onwardVeryDarkBlue bg-onwardPurplish dark:bg-blackberry" type="submit">get another question!</button>
+        <p class = "out-of-questions hidden"> you've almost run me out of questions! i appreciate your enthusiasm. i've just got one final question: what questions do you have? </p>
+        <button class ="give-questions hidden nice-btn" type="submit">give questions</button>
+      </div>
+    </div>
+    <div class="flex shrink-0 origin-center snap-start transition-transform scale-100 h-full w-full relative" id="slide-2" aria-label="slide 2 of 5" tabindex="0">
+    <div class="inline"> 
+    <h3>You ask the questions, and I'll answer</h3>
+    <p>Questions people ask me that I don't have concise answers to:
+    <ul>
+    <li><a href="/intentional-community/">What do you mean when you say you live in an intentional community affiliated with a church?</a></li>
+    <li>Why do you go to church? Are you Christian?
+    <p>
+    </div>
+    </div>
+    <div class="flex shrink-0 origin-center snap-start transition-transform scale-100 h-full w-full relative" id="slide-3" aria-label="slide 3 of 5" tabindex="0">
+    <div class="inline">
+    <h3>I ask the questions, and I also answer them</h3>
+    <p>experiments i've tried</p>
+    <ul>
+    <li>not listening to secular music during lent</li>
+    <li>no more airpods / making an effort to listen to media while doing other things less</li>
+    <li>having personal goals with end dates attached</li>
+    <li>write-only twitter</li>
+    </ul>
+    </div>
+    </div>
+    <div class="flex shrink-0 origin-center snap-start transition-transform scale-100 h-full w-full relative" id="slide-4" aria-label="slide 4 of 5" tabindex="0">
+    <div class="inline"> 
+    <h3>I ask the questions, but they remain unanswered</h3>
+    <p>some open questions</p>
+    </div>
+    </div>
+  </div>
+</section>
 
-<hr class="invisible">
-<h4 class="question"></h4>
-<form class = "invisible gform" id = "response-form" action="https://script.google.com/macros/s/AKfycbzXOpOGUv7e9Pj5TCHHCb6d6_Sy0OEvqN9g4-bPSH3Qnj4g8KalXpxoAa5Uobi_WWT4Hw/exec" method="POST">
-  <input type="text" id="what-question" name="question" class = "hidden" value="question-answer">
-  <textarea name="answer" rows="5" cols="50"  class = "px-2 py-0.5 rounded border-1 border-onwardVeryDarkBlue font-spacious bg-white dark:bg-gray-200 dark:text-gray-600" required></textarea>
-  <br>
-  <button type="submit" class="text-sm py-px px-4 rounded-xl border-1 border-onwardVeryDarkBlue bg-onwardPurplish dark:bg-blackberry">send answer</button>
-</form>
-<p id="js-form-sending" class="hidden">sending...</p>
-<p id="js-form-response"></p>
-<button class ="get-another-question hidden text-sm py-px px-4 rounded-xl border-1 border-onwardVeryDarkBlue bg-onwardPurplish dark:bg-blackberry" type="submit">get another question!</button>
-<p class = "out-of-questions hidden"> you've almost run me out of questions! i appreciate your enthusiasm. i've just got one final question: what questions do you have? </p>
-<button class ="give-questions hidden nice-btn" type="submit">give questions</button>
-
-*** 
-### You ask the questions, and I'll answer
-Questions people ask me that I don't have concise answers to:
-- [What do you mean when you say you live in an intentional community affiliated with a church?](/intentional-community/)
-- Why do you go to church? Are you Christian?
-
-***
-
-### I ask the questions, and I also answer them
-experiments i've tried 
-
-- not listening to secular music during lent 
-- no more airpods / making an effort to listen to media while doing other things less
-- having personal goals with end dates attached
-- write-only twitter
-
-*** 
-
-### I ask the questions, but they remain unanswered
-some open questions
 
 
 
