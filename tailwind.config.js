@@ -10,20 +10,11 @@ if (isProduction) {
 module.exports = {
     purge,
     content: { relative: true, files: [
-        "./pages/**/*.{js,ts,jsx,tsx,njk}",
-        "./components/**/*.{js,ts,jsx,tsx,njk}",
-        "./src/**/*.{html,js,njk}",
-        "./_site/**/*.{html,js,njk}", 
+        "./_11ty/**/*.{html,js,njk,md}",
+        './assets/**/*.{html,js,njk,md}',
         './content/**/*.{html,js,njk,md}',
-        './assets/**/*.{html,js,njk}',
-        './_site/**/*.{html,js,njk}',
-        './index.html',
-        './0000/**/*.{html,js,njk}',
-        './2022/**/*.{html,js,njk}',
-        './2023/**/*.{html,js,njk}',
-        './archive/**/*.{html,js,njk}',
-        './page/**/*.{html,js,njk}',
-        './posts/**/*.{html,js,njk}',
+        "./scripts/**/*.{html,js,njk,md}", 
+        "./src/**/*.{html,js,njk,md}",
       ]
     },
       
