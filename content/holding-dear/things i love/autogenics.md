@@ -1,6 +1,5 @@
 ---
 title: Autogenics
-tags: 
-  - psychtools
+category: psychological tools
 number: 2
 ---

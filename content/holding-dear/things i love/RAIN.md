@@ -1,10 +1,9 @@
 ---
 title: RAIN
-tags: 
-  - psychtools
+category: psychological tools
 number: 1
 ---
-RAIN is a technique -- I think it is meant to be a meditation, but I use it as a journalling exercise -- that is one of the two things I've found that can reliably calm me down when I am feeling so stressed, anxious, or overwhelmed that I don't know what to do with myself. Very consistently, if I write through the four steps (Recognize, Allow, Investigate, Non-Identification) I reach a point where a thin layer of wonder and gratitude that I get to live through all these rich experiences floats to just within my grasp. I usually still feel all the feelings I was feeling before, but instead of having topline meta-angst, I have something closer to topline meta-equanimity, and I'm much more prepared to go take action in the world. 
+RAIN is a technique -- I think it is meant to be a meditation, but I use it as a journalling exercise -- that is one of the two things I've found that can reliably calm me down when I am feeling so stressed, anxious, or overwhelmed that I don't know what to do with myself. Very consistently, if I write through the four steps (Recognize, Allow, Investigate, Non-Identification) I reach a point where a thin layer of wonder and gratitude that I get to live through all these rich experiences floats to just within my grasp. I usually still feel all the feelings I was feeling before, but instead of having topline meta-angst, I have something closer to topline meta-equanimity, and I'm much more prepared to go take action in the world.
 
 How I do this: when my feelings are feeling Too Big, or when I notice that I'm feeling very stuck and unable to get anything done, I often remember RAIN, and turn to a blank page.
 

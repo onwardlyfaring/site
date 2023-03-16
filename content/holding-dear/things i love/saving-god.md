@@ -1,6 +1,5 @@
 ---
 title: Saving God by Mark Johnston
-tags: 
-  - books
+category: books
 number: 1
 ---

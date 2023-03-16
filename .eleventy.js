@@ -44,6 +44,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode("excerpt", (article) =>
         extractExcerpt(article)
     );
+    // Generate everything else 
+    eleventyConfig.addShortcode("nonexcerpted", (article) =>
+        extractNonExcerpted(article)
+    );
 
     experimentShortcodes(eleventyConfig);
 
@@ -193,6 +197,26 @@ function extractExcerpt(article) {
     var excerpt = content.slice(0, content.indexOf("\n"));
     if (article.data.tags.includes("noticings")){
         excerpt= article.data.abstract;
+    } else if (article.data.tags.includes("holdingdear")){
+        excerpt= content.slice(excerpt.indexOf(">")+1);
+        excerpt= excerpt.slice(0, excerpt.indexOf("<"));
+    }
+    
+    return excerpt;
+}
+function extractNonExcerpted(article) {
+    if (!Object.prototype.hasOwnProperty.call(article, "templateContent")) {
+        console.warn(
+            'Failed to extract excerpt: Document has no property "templateContent".'
+        );
+        return null;
+    }
+
+    const content = article.templateContent;
+
+    var excerpt = content.slice(content.indexOf("\n"));
+    if (article.data.tags.includes("noticings")){
+        excerpt= article.content;
     } 
     
     return excerpt;

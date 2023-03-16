@@ -1,6 +1,5 @@
 ---
 title: Adam's emotions activity
-tags: 
-  - psychtools
+category: psychological tools
 number: 3
 ---

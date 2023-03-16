@@ -1,6 +1,5 @@
 ---
 title: Anki
-tags: 
-  - technology
+category: technology
 number: 2
 ---
