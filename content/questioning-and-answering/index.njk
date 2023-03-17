@@ -9,7 +9,7 @@ permalink: /questions-and-answers/
 
 <section class="mx-0 my-auto overflow-hidden" aria-label="carousel" Tabindex="0">
   <div class="w-full flex overflow-x-scroll snap-x snap-mandatory scroll-smooth">
-    {% for set in collections.questions %}
+    {% for set in collections.questionsets %}
     <div class="flex shrink-0 origin-center snap-start transition-transform scale-100 w-full relative" id="{{set.fileSlug}}" tabindex="0">
       <div class="inline">
       {{set.templateContent | safe}} 
@@ -19,7 +19,7 @@ permalink: /questions-and-answers/
   </div>
   <hr class="my-4">
   <div class="carousel__nav">
-    {% for set in collections.questions %}
+    {% for set in collections.questionsets %}
     <a class="slider-nav" href="#{{set.fileSlug}}">{{set.data.title}}</a> <br>
     {% endfor %}
   </div>

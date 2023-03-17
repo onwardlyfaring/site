@@ -18,5 +18,11 @@ permalink: /projects/
 ### daily reminder emails
 ### spotify data analysis 
 ### a quilt or two
+
+### on the internet
+- [neocities site](https://onwardlyfaring.neocities.org/): created in autumn 2020, a personal website intended to capture the vibe of my college dorm room. i loved making the auto-regenerating (and admittedly inaccessible) voronoi home page and an assortment of other small pages. 
+- [this site](/this-site/): linked are some reflections on what i'm up to with this present site!
+
+
 <!-- thermal paper projects -->
 <!-- - barrier grid animation -->
