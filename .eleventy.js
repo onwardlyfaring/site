@@ -200,7 +200,6 @@ function extractExcerpt(article) {
     } else if (article.data.tags.includes("holdingdear")){
         excerpt= content.slice(excerpt.indexOf("<p>")+3);
         excerpt= excerpt.slice(0, excerpt.indexOf("</p>"));
-        console.log(excerpt);
     }
     
     return excerpt;
