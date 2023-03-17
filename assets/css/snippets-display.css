@@ -4,6 +4,9 @@
     --thisColor: #ffe6b1;
     --standardFontColor: #000815;
   }
+
+  
+
   /* body{
   
   } */
@@ -73,6 +76,7 @@
     background-color: var(--thisColor);
   }
   
+  
   section.active {
     border-radius: 8%;
     background-color: var(--thisColor);
@@ -88,6 +92,20 @@
     margin-right: auto;
     margin-top: -250px;
   }
+  
+  @media (prefers-color-scheme: dark) {
+    section{
+      border-color: #4B5563;
+    }
+    .section-cover:hover{
+      background-color: #09090A;
+    }
+
+    section.active {
+      background-color: #09090A;
+    }
+  }
+
   
   section.active .section-cover{
     display: none;
