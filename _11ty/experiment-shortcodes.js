@@ -81,7 +81,7 @@ const SHORTCODES = {
         if ( content == "" ) {
             return "";
         }
-        return `<div class="col-span-2">
+        return `<div class="md:col-span-2">
         <h3>Notes</h3>
         <div class="font-light dark:font-extralight">${content}</div>
         </div>`
@@ -91,7 +91,7 @@ const SHORTCODES = {
         if ( content == "" ) {
             return "";
         }
-        return `<div class="col-span-2">
+        return `<div class="md:col-span-2">
         <h3>Results</h3>
         <div class="font-light dark:font-extralight">${content}</div>
         </div>`
