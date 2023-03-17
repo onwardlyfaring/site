@@ -18,7 +18,6 @@ module.exports = {
       ]
     },
       
-    darkMode: "class",
     // plugins: [
     //     function ({ addUtilities }) {
     //         const extendUnderline = {
@@ -31,15 +30,6 @@ module.exports = {
     //         addUtilities(extendUnderline);
     //     }
     // ],
-    variants: {
-        extend: {
-            backgroundImage: ["dark"],
-            fill: ["dark"],
-            fontWeight: ["dark"],
-            gradientColorStops: ["dark"],
-            stroke: ["dark"]
-        }
-    },
     theme: {
         extend: {
             colors: {
@@ -83,14 +73,9 @@ module.exports = {
             }
 
             , backgroundColor: (theme) => ({
-                ...theme("colors"),
-                "dark-nav": "#242424",
-                "dark-body": "#1B1B1E",
-                "dark-heading": "#27282B"
+                ...theme("colors")
             }),
             backgroundImage: () => ({
-                "sidebar-dark":
-                    "radial-gradient(circle, #242424 0%, #1d1f27 100%)",
                 "sidebar-light":
                     "radial-gradient(circle, #e1ecff 0%, #d4e5fe 100%)"
             }),
@@ -99,9 +84,7 @@ module.exports = {
                 1: "1px"
             }),
             gradientColorStops: (theme) => ({
-                ...theme("colors"),
-                "dark-outer": "#1B1B1E",
-                "dark-middle": "#242424"
+                ...theme("colors")
             }),
             gridTemplateColumns: {
                 small: "0 auto",

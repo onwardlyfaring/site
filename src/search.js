@@ -111,7 +111,7 @@ const searchContent = (e) => {
                 const liEl = document.createElement("li");
                 liEl.setAttribute(
                     "class",
-                    "bg-gradient-to-r from-white via-gray-100 to-white dark:via-dark-middle dark:from-dark-outer dark:to-dark-outer mb-4 py-2 truncate"
+                    "bg-gradient-to-r from-white via-gray-100 to-white mb-4 py-2 truncate"
                 );
                 const aEl = document.createElement("a");
                 aEl.setAttribute("href", item.url);

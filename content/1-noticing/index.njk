@@ -14,17 +14,17 @@ meta:
 permalink: "/posts/"
 ---
 
-<h2 class = "pb-3">Observations <span class = "text-xs text-gray-400 dark:text-gray-500">(little blogs, written as if quick to perish; with elided invocations)</span> </h2>
+<h2 class = "pb-3">Observations <span class = "text-xs text-gray-400">(little blogs, written as if quick to perish; with elided invocations)</span> </h2>
 
-<div class=" pb-8 font-light dark:font-extralight ">
+<div class=" pb-8 font-light">
     {% for post in noticings %}
     <div class = "pb-2">
 
 		<span>
-		<a class="text-green-600 dark:text-indigo-300 dark:font-light font-normal postlistheading" href="{{ post.url | url }}">{{ post.data.title }}</a>
+		<a class="text-green-600font-normal postlistheading" href="{{ post.url | url }}">{{ post.data.title }}</a>
 		</span>
-		<span class="text-gray-900 dark:text-gray-400"> {% excerpt post %} </span>
-		<span class="text-xs text-gray-400 dark:text-gray-500"> ({{ post.date | readableDate }}) </span>
+		<span class="text-gray-900 "> {% excerpt post %} </span>
+		<span class="text-xs text-gray-400 "> ({{ post.date | readableDate }}) </span>
     </div>
     {% endfor %}
 </div>
@@ -32,7 +32,7 @@ permalink: "/posts/"
 
 {# 
 <div class="mt-2 mx-8 lg:ml-32">
-	<ul class="pagination flex list-none center pb-8 font-light dark:font-extralight">
+	<ul class="pagination flex list-none center pb-8 font-light">
 	    {% if pagination.pageNumber > 0 %}
 	    <li class="mr-3">
 			<div class="leading-relaxed">

@@ -63,7 +63,7 @@ const SHORTCODES = {
         }
         return `<div>
         <h3>Intentions</h3>
-        <div class="font-light dark:font-extralight">${content}</div>
+        <div class="font-light">${content}</div>
         </div>`;
     },
     questions: (children) => {
@@ -73,7 +73,7 @@ const SHORTCODES = {
         }
         return `<div>
         <h3>Questions</h3>
-        <div class="font-light dark:font-extralight">${content}</div>
+        <div class="font-light">${content}</div>
         </div>`
     },
     notes: (children) => {
@@ -83,7 +83,7 @@ const SHORTCODES = {
         }
         return `<div class="md:col-span-2">
         <h3>Notes</h3>
-        <div class="font-light dark:font-extralight">${content}</div>
+        <div class="font-light">${content}</div>
         </div>`
     },
     results: (children) => {
@@ -93,7 +93,7 @@ const SHORTCODES = {
         }
         return `<div class="md:col-span-2">
         <h3>Results</h3>
-        <div class="font-light dark:font-extralight">${content}</div>
+        <div class="font-light">${content}</div>
         </div>`
     }
     , contextualintentions: (children, contextName) => {

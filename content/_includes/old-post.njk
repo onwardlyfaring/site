@@ -5,7 +5,7 @@ include_aside: true
 
 <div class="content post border-solid border-b-1 border-gray-700 pb-6">
   	<h1>{{ title }}</h1>
-  	<div class="mb-12 flex text-sm font-light dark:font-extralight">
+  	<div class="mb-12 flex text-sm font-light">
 		<div class="flex">
         	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600.112 600.111" class="h-5 w-4 mr-2">
 	    		<path d="M537.423,52.563h-59.836V21.92c0-11.83-9.591-21.42-21.42-21.42c-11.83,0-21.42,9.59-21.42,21.42v30.642H165.364V21.92
@@ -58,13 +58,13 @@ include_aside: true
 		{% set previousPost = collections.posts | getPreviousCollectionItem(page) %}	
 		{% set nextPost = collections.posts | getNextCollectionItem(page) %}	
 	  	<a href="{{ previousPost.url }}" class="flex-1">	
-			<div class="rounded-xl h-24 border-1 border-gray-700 leading-pagination text-center{% if previousPost.url %} hover:bg-onwardPurplish dark:hover:bg-onwardVeryDarkBlue hover:text-black dark:hover:text-gray-200 cursor-pointer{% else %} cursor-not-allowed{% endif %}">
+			<div class="rounded-xl h-24 border-1 border-gray-700 leading-pagination text-center{% if previousPost.url %} hover:bg-onwardPurplish hover:text-blackcursor-pointer{% else %} cursor-not-allowed{% endif %}">
 					<span class="text-xs block mt-1 mb-3">Older</span>	
 				<span class="text-xl">{% if not previousPost.url %} - {% else %}{{ previousPost.data.title | truncate(40) }}{% endif %}</span>	
 			</div>	
 		</a>	
 	  	<a href="{{ nextPost.url }}" class="flex-1">	
-		  	<div class=" rounded-xl h-24 border-1 border-gray-700 leading-pagination text-center{% if nextPost.url %} hover:bg-onwardPurplish dark:hover:bg-onwardVeryDarkBlue hover:text-black dark:hover:text-gray-200 cursor-pointer{% else %} cursor-not-allowed{% endif %} overflow-auto">
+		  	<div class=" rounded-xl h-24 border-1 border-gray-700 leading-pagination text-center{% if nextPost.url %} hover:bg-onwardPurplish hover:text-black cursor-pointer{% else %} cursor-not-allowed{% endif %} overflow-auto">
 					<span class="text-xs block mt-1 mb-3">Newer</span>	
 				<span class="text-xl">{% if not nextPost.url %} - {% else %}{{ nextPost.data.title | truncate(40) }}{% endif %}</span>	
 			</div>	
@@ -73,7 +73,7 @@ include_aside: true
 	{% set relatedPosts = related %}	
 	{% if relatedPosts %}
 	<div class="block w-full h-1 border-solid border-b-1 border-gray-700"></div>
-	<span class="content text-gray-800 dark:text-gray-400">Related</span>	
+	<span class="content text-gray-800">Related</span>	
 	<div class="content additions flex mt-6 border-solid border-b-1 border-gray-700 mr-8 lg:mr-24">	
 	  	{% for post in relatedPosts %}	
 	  	<a href="{{ post.url }}"  class="flex-1">	

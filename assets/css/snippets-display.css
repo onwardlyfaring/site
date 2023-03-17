@@ -93,20 +93,6 @@
     margin-top: -250px;
   }
   
-  @media (prefers-color-scheme: dark) {
-    section{
-      border-color: #4B5563;
-    }
-    .section-cover:hover{
-      background-color: #09090A;
-    }
-
-    section.active {
-      background-color: #09090A;
-    }
-  }
-
-  
   section.active .section-cover{
     display: none;
   }

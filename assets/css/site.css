@@ -130,51 +130,37 @@ div.menu > * {
 
 /* SVGs */
 
-html[class="dark"] svg {
-    fill: #9ca3af;
-    stroke: #9ca3af;
-}
-
-html[class="dark"] .social svg:hover {
-    fill: white;
-    stroke: white;
-}
-
-html:not(.dark) svg.twitter {
+html svg.twitter {
     fill: #1da1f2;
     stroke: #1da1f2;
 }
 
-html:not(.dark) svg.twitter:hover {
+html svg.twitter:hover {
     fill: #1b90d8;
     stroke: #1b90d8;
 }
 
-html:not(.dark) svg.facebook {
+html svg.facebook {
     fill: #4267b2;
     stroke: #4267b2;
 }
 
-html:not(.dark) svg.facebook:hover {
+html svg.facebook:hover {
     fill: #375593;
     stroke: #375593;
 }
 
-html:not(.dark) svg.linkedin {
+html svg.linkedin {
     fill: #0072b1;
     stroke: #0072b1;
 }
 
-html:not(.dark) svg.linkedin:hover {
+html svg.linkedin:hover {
     fill: #006398;
     stroke: #006398;
 }
 
-html[class="dark"] svg.darktoggle {
-    @apply hidden;
-}
-
-html:not(.dark) svg.lighttoggle {
+html svg.lighttoggle {
     @apply hidden;
 }
 
@@ -197,15 +183,15 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content a {
-    @apply text-onwardFontColor dark:text-gray-400 underline  decoration-dashed;
+    @apply text-onwardFontColor underline  decoration-dashed;
 }
 
 .content p {
-    @apply pb-4 pt-2 font-light dark:font-extralight;
+    @apply pb-4 pt-2 font-light;
 }
 
 .content blockquote {
-    @apply border-l-2 border-gray-300 dark:border-gray-600 my-4;
+    @apply border-l-2 border-gray-300 my-4;
 }
 
 .content blockquote > p {
@@ -213,7 +199,7 @@ html:not(.dark) svg.lighttoggle {
 }
 
 .content h1 {
-    @apply text-2xl font-medium dark:font-light mt-6;
+    @apply text-2xl font-medium mt-6;
 }
 
 .content h2 {
@@ -244,12 +230,9 @@ html:not(.dark) svg.lighttoggle {
     @apply leading-12;
 }
 
-.content table tbody tr:nth-child(even) {
-    @apply dark:bg-dark-heading;
-}
 
 .content table tbody tr:nth-child(odd) {
-    @apply bg-gray-100 dark:bg-sidebar-dark;
+    @apply bg-gray-100;
 }
 
 .content img {
@@ -381,13 +364,13 @@ nav.toc a {
 
 nav.toc a:active,
 nav.toc a:hover {
-    @apply text-indigo-900 dark:text-indigo-300;
+    @apply text-indigo-900;
     border-left: 1px solid;
     padding-left: 17px;
 }
 
 nav.toc a.active {
-    @apply text-indigo-900 dark:text-indigo-300 font-bold;
+    @apply text-indigo-900 font-bold;
     border-left: 2px solid;
     padding-left: 16px;
 }
@@ -411,16 +394,12 @@ nav.toc ol ol a.active {
 /* Collection pagination */
 
 ul.pagination div {
-    @apply h-8 w-8 border-1 dark:text-gray-400 bg-white dark:bg-gray-700 hover:bg-indigo-800 dark:hover:bg-gray-600 border-gray-600 hover:text-white rounded-full text-center;
+    @apply h-8 w-8 border-1 bg-white hover:bg-indigo-800 border-gray-600 hover:text-white rounded-full text-center;
 }
 
-html:not(.dark) ul.pagination div.active {
+html ul.pagination div.active {
     @apply text-white bg-indigo-800;
     box-shadow: 0 0 8px 0 rgba(55, 48, 163);
-}
-
-html[class="dark"] ul.pagination div.active {
-    @apply bg-indigo-900;
 }
 
 ::placeholder {
@@ -440,7 +419,7 @@ html[class="dark"] ul.pagination div.active {
 }
 
 .additions div {
-    @apply text-gray-700 dark:text-gray-400 bg-white dark:bg-dark-body border-gray-600 no-underline;
+    @apply text-gray-700 bg-white border-gray-600 no-underline;
 }
 
 .additions div:hover {
@@ -448,7 +427,7 @@ html[class="dark"] ul.pagination div.active {
 }
 
 .scroll {
-    @apply bg-white dark:bg-gray-700 w-12 h-12 border-indigo-900 border-solid border-1;
+    @apply bg-white w-12 h-12 border-indigo-900 border-solid border-1;
     position: fixed;
     display: none;
     justify-content: center;
