@@ -1,0 +1,10 @@
+---
+title: I ask the questions, and I also answer them
+---
+<h3>I ask the questions, and I also answer them</h3>
+<p>experiments i've tried</p>
+<ul>
+{% for exp in collections.experiments %}
+    <li><a href="{{ exp.url | url }}">{{exp.data.questionAbstract}}</a></li>
+{% endfor %}
+</ul>
