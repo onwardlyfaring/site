@@ -10,7 +10,7 @@ module.exports = {
     // Image alt text for left sidebar
     imageAlt: "a blackberry",
     // Author name, shown in left sidebar, and used in JSON-LD
-    author: "matisse catherine",
+    author: "matisse",
     // Site description, shown below site image (optional)
     description: "as a blackberry, \ sweet or puckery",
 
