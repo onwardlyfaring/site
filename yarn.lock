@@ -3205,6 +3205,11 @@ markdown-it-anchor@^7.1.0:
   resolved "https://registry.yarnpkg.com/markdown-it-anchor/-/markdown-it-anchor-7.1.0.tgz#30fb21497bf59e83ff4d1ddc052d821962e2489e"
   integrity sha512-loQggrwsIkkP7TOrESvmYkV2ikbQNNKhHcWyqC7/C2CmfHl1tkUizJJU8C5aGgg7J6oXVQJx17gk7i47tNn/lQ==
 
+markdown-it-footnote@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.3.tgz#e0e4c0d67390a4c5f0c75f73be605c7c190ca4d8"
+  integrity sha512-YZMSuCGVZAjzKMn+xqIco9d1cLGxbELHZ9do/TSYVzraooV8ypsppKNmUJ0fVH5ljkCInQAtFpm8Rb3eXSrt5w==
+
 markdown-it@12.0.4:
   version "12.0.4"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-12.0.4.tgz#eec8247d296327eac3ba9746bdeec9cfcc751e33"
@@ -4552,11 +4557,6 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
-
-prettier@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.1.tgz#76903c3f8c4449bc9ac597acefa24dc5ad4cbea6"
-  integrity sha512-p+vNbgpLjif/+D+DwAZAbndtRrR0md0MwfmOVN9N+2RgyACMT+7tfaRnT+WDPkqnuVwleyuBIG2XBxKDme3hPA==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"

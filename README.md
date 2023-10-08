@@ -20,7 +20,7 @@ If you want to deploy, there's a button for it: [![Deploy to Netlify](https://ww
 -   🔍 [Algolia Search](https://github.com/algolia/algoliasearch-netlify) enabled
 -   and more
 
-Opinionated setup with [Prettier](https://prettier.io/), [ESlint](https://eslint.org/), [markdownlint](https://github.com/DavidAnson/markdownlint) and others. UX build with [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) and [TailwindCSS](https://tailwindcss.com/docs). JavaScript bundled with [Rollup](https://rollupjs.org/).
+Opinionated setup with [ESlint](https://eslint.org/), [markdownlint](https://github.com/DavidAnson/markdownlint) and others. UX build with [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) and [TailwindCSS](https://tailwindcss.com/docs). JavaScript bundled with [Rollup](https://rollupjs.org/).
 
 ## Configuration
 

@@ -1,5 +1,5 @@
 module.exports = {
-    extends: ["eslint:recommended", "prettier"],
+    extends: ["eslint:recommended"],
     plugins: ["inclusive-language"],
     rules: {
         "inclusive-language/use-inclusive-words": "error"

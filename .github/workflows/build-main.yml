@@ -27,15 +27,11 @@ jobs:
                       yarn-${{ env.cache-name }}-
                       yarn-
 
-            # Install npm dependencies for Prettier and Jest
+            # Install npm dependencies for  Jest
             - name: "Install npm dependencies"
               if: steps.cache-yarn.outputs.cache-hit != 'true'
               run: yarn install
-
-            # Prettier formatting
-            - name: "Prettier"
-              run: yarn prettier:verify
-
+              
             # Markdown and JavaScript linting
             - name: "Linting"
               run: yarn lint
