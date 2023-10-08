@@ -17,7 +17,7 @@ export default {
     ],
     plugins: [
         // Minify JS in production mode
-        isProduction && terser(),
+        isProduction,
         // Replace env variables for Algolia, if enabled
         siteconfig.algoliaSearch &&
             siteconfig.algoliaSearch.enabled &&
