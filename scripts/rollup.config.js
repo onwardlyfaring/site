@@ -1,5 +1,5 @@
 require("dotenv").config();
-import { terser } from "rollup-plugin-terser";
+import { terser } from "@rollup/plugin-terser";
 const replace = require("@rollup/plugin-replace");
 const siteconfig = require("../content/_data/siteconfig");
 
