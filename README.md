@@ -16,7 +16,6 @@ If you want to deploy, there's a button for it: [![Deploy to Netlify](https://ww
 -   🌄 Responsive images optimization
 -   👀 Accessible
 -   🛠 JavaScript and CSS build optimization
--   👨‍💻 Prism-based syntax highlighting
 -   📚 RSS (yup, still a thing), sitemap.xml, and JSON-LD
 -   🔍 [Algolia Search](https://github.com/algolia/algoliasearch-netlify) enabled
 -   and more
