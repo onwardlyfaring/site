@@ -3,3 +3,28 @@ title: Anki
 category: technology
 number: 2
 ---
+I now have, on my phone, a set of flashcards that detail points I thought were interesting or fertile or lovely when I came across them. And that means that at pretty much any time -- when I'm on a crowded bus, say, or I'm waiting for my name to be called at the doctor's office -- I have an easy option to think about some things I delight in thinking about. I open up the Anki app and am presented with some prompts I've curated for myself, of all these things I thought my future self might like.
+
+  
+
+Anki is a spaced repetition flashcard app. Typically used for memorization, spaced repetition is a technique wherein prompts that you have difficulty with are shown more frequently, and prompts that you find easier are shown less frequently. One way to sell this, is that it's a technique that lets you memorize more stuff, faster. Medical students, who have such large volumes of information to memorize, often use it in much the same way I used flashcards in high school: make a deck with information you need to know for a test, study until the time of the test, and then never look at those flashcards again.
+
+  
+
+But spaced repetition opens up a whole further expanse of possibilities, and often the implementation looks very, very different from my school self's time-bound, single-purpose flashcard decks. People often have one deck of spaced repetition flashcards, being used to remember things indefinitely. A prompt might get shown daily, and then weekly, and then monthly - and then perhaps wouldn't appear for another year and a half. But it would resurface again, a year and a half later, in that same centralized deck. This way of conducting spaced repetition starts to feel like the antithesis of preparing for a test. You create a space, deliberately, with all sorts of things you want to keep in mind, and then you choose to keep them in mind. It's a way of being connected with yourself.
+
+  
+
+I am indebted to [Andy Matuschak](https://andymatuschak.org/) and [Michael Nielson](https://michaelnielsen.org/) for this humanistic, autonomy-expanding view of spaced repetition. They write about these systems with such heart, emphasizing the importance of only using SRS for things you care about, and posing emotional connectedness as essential. Their descriptions of their SRS practices have also [expanded](https://michaelnotebook.com/ongoing/hiums.html) [my](https://notes.andymatuschak.org/Spaced_repetition_systems_as_catechism) [understanding](https://notes.andymatuschak.org/z8v56RCUFx6Zp6sBG6mTL95) of the what spaced repetition can be used for; in particular, I've appreciated the conception of SRS as a way of [directing attention](https://notes.andymatuschak.org/zB92WZZ5baBHKZPPbWMbYEv), or maintaining salience, rather than facilitating memorization.
+
+  
+
+I've had a low-key spaced repetition practice now for a few years. Mostly I write prompts for turns in books or articles that surprised me, though I also have a number of catechistic prompts adapted from old [EnneaThoughts](https://www.enneagraminstitute.com/), as well as some straight factual questions about orders of magnitude and units of measurement. I cannot really say that spaced repetition has been at all useful in my life. There's not much that I'm trying to memorize, and to date I have not been doing work where keeping old readings salient has been much help. But that's okay.
+
+  
+
+When I have gaps of time, sometimes I don't want to just sit quietly. Sometimes I don't want to read something new. Almost always I don't want to doomscroll. In these cases, having a backlog of Anki cards available on my phone can be a relief. It's scaffolding for an activity that I feel actually pretty good about. I like reviewing my Anki deck! I go slow; I take as much time as I want, I look around, I think about what I am doing. It's fodder for thought that I have put in place deliberately for myself.
+
+  
+
+The Anki app has transformed my attitude towards my phone: it is easier, now, to regard it as a valuable tool. Instead of draining life away, my phone feels like something that adds to my life. It is a striking shift.
