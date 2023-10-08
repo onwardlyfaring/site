@@ -1,0 +1,78 @@
+---
+eleventyExcludeFromCollections: true
+layout: page.njk
+include_aside: true
+title: To Notice
+pagination:
+  data: collections.noticings
+  size: 15
+  alias: noticings
+  reverse: true
+meta:
+  robots:
+    value: noindex
+permalink: "/posts/"
+---
+
+<h2 class = "pb-3">Observations <span class = "text-xs text-gray-400">(little blogs, written as if quick to perish; with elided invocations)</span> </h2>
+
+<div class=" pb-8 font-light">
+    {% for post in noticings %}
+    <div class = "pb-2">
+
+		<span>
+		<a class="text-green-600font-normal postlistheading" href="{{ post.url | url }}">{{ post.data.title }}</a>
+		</span>
+		<span class="text-gray-900 "> {% excerpt post %} </span>
+		<span class="text-xs text-gray-400 "> ({{ post.date | readableDate }}) </span>
+    </div>
+    {% endfor %}
+</div>
+
+
+{# 
+<div class="mt-2 mx-8 lg:ml-32">
+	<ul class="pagination flex list-none center pb-8 font-light">
+	    {% if pagination.pageNumber > 0 %}
+	    <li class="mr-3">
+			<div class="leading-relaxed">
+				{% if not pagination.href.first %}
+				<span class="block cursor-not-allowed">&lt;&lt;</a>
+				{% else %}
+				<a href="{{ pagination.href.first }}" class="block hover:no-underline">&lt;&lt;</a>
+				{% endif %}
+			</div>
+		</li>
+	    <li class="mr-3">
+			<div class="leading-relaxed">
+				{% if not pagination.href.previous %}
+				<span class="block cursor-not-allowed">&lt;</a>
+				{% else %}
+				<a href="{{ pagination.href.previous }}" class="block hover:no-underline">&lt;</a>
+				{% endif %}
+			</div>
+		</li>
+		{% endif %}
+	    {% for pageEntry in pagination.pages %}
+		{% if loop.index0 < 6  and pagination.hrefs[loop.index0 + pagination.pageNumber] %}
+	    <li class="mr-3">
+			<div class="leading-pagination{% if pagination.hrefs[loop.index0 + pagination.pageNumber] === page.url %} active{% endif %}">
+				<a href="{{ pagination.hrefs[loop.index0 + pagination.pageNumber] }}" class="block hover:no-underline">{{ loop.index + pagination.pageNumber }}</a>
+			</div>
+		</li>
+		{% endif %}
+		{% endfor %}
+		{% if (pagination.pageNumber + 5) < pagination.pages.length %}
+	    <li class="mr-3">
+			<div class="leading-relaxed">
+				<a href="{{ pagination.href.next }}" class="block hover:no-underline">&gt;</a>
+			</div>
+		</li>
+	    <li class="mr-3">
+			<div class="leading-relaxed">
+				<a href="{{ pagination.href.last }}" class="block hover:no-underline">&gt;&gt;</a>
+			</div>
+		</li>
+		{% endif %}
+	</ul>
+</div> #}

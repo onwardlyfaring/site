@@ -1,0 +1,28 @@
+---
+layout: page.njk
+title: Holding Dear
+tags: 
+  - page
+permalink: /things-i-love/
+---
+<h2>Some things I love</h2>
+<div class="pt-5 grid grid-cols-1 gap-y-2">
+  {% for note in collections.holdingdear %}
+    
+  <div class="border border-onwardFontColor p-5 rounded-lg leading-snug">
+    
+  <span class="text-xl font-semibold">{{note.data.title}}</span> &nbsp; 
+    <span class="italic">{{note.data.category}}</span>
+    {% if note.templateContent %}
+    <div class="pt-5">
+      <details class="inline">
+      <summary class="pb-4">{% excerpt note %}
+      </summary>
+      {% nonexcerpted note %}
+      {# {{note.templateContent | safe}} #}
+    </details>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,3 @@
+{
+    "permalink": "/experiments/{{ permaword | slug }}/"
+}

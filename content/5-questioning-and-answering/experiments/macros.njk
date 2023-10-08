@@ -1,0 +1,42 @@
+{% macro experimentSummaryCardList(myCollection) %}
+<div class="grid grid-cols-1 gap-y-2">
+  {% for exp in myCollection %}
+    
+  <div class="border p-5 rounded-lg leading-snug bg-onwardYellowish-lighterr">
+    
+  <a href="{{ exp.url | url }}"><span class="text-xl font-semibold text-onwardFontColor">{{exp.data.title}}</span></a> &nbsp; 
+  {% if exp.data.progress %} {{ exp.data.progress | statusCircles | safe }} {% endif %}
+
+    <div class="pt-5 grid gap-x-5 grid-cols-1 md:grid-cols-2">
+      {% if exp.data.intentionAbstract %}
+      <div>
+      <div class="text-lg font-semibold">Intentions</div>
+      <p>{{exp.data.intentionAbstract}}</p>
+      </div>
+      {% endif %}
+
+      {% if exp.data.questionAbstract %}
+      <div>
+      <div class="text-lg font-semibold">Questions</div>
+      <p>{{exp.data.questionAbstract}}</p>
+      </div>
+      {% endif %}
+
+      {% if exp.data.noteAbstract %}
+      <div>
+      <div class="text-lg font-semibold">Notes</div>
+      <p>{{exp.data.noteAbstract}}</p>
+      </div>
+      {% endif %}
+
+      {% if exp.data.resultAbstract %}
+      <div>
+      <div class="text-lg font-semibold">Results</div>
+      <p>{{exp.data.resultAbstract}}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}
