@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .addEventListener("scroll", function () {
             {
                 const areaEl = document.getElementById("right-area");
-                const barEl = document.getElementById("top-bar");
+                // const barEl = document.getElementById("top-bar");
                 const scrollEl = document.getElementById("scroll");
                 const scrollTop = areaEl.scrollTop;
 

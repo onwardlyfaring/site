@@ -23,7 +23,7 @@ function circle (status) {
         fill="green"`;
     }
     return `<svg `+svg_format_string+`> <circle `+circle_format_string+` /> </svg> `
-} ;
+} 
 
 const FILTERS = {
     statusCircles: function (symbolString) {

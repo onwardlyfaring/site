@@ -58,8 +58,7 @@ async function resize(filename, width, hash, format, metadataWidth) {
     const resizeWidth = metadataWidth < width ? metadataWidth : width;
 
     await sharp(file)
-        .resize({ width: resizeWidth })
-        [format]({
+        .resize({ width: resizeWidth })[format]({
             quality: 80,
             reductionEffort: 6
         })
