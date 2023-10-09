@@ -41,7 +41,8 @@
         "rollup-plugin-postcss": "^4.0.0",
         "sharp": "^0.30.4",
         "shelljs": "^0.8.4",
-        "tailwindcss": "^3.2.7"
+        "tailwindcss": "^3.2.7",
+        "yarn": "^1.22.19"
     },
     "devDependencies": {
         "concurrently": "^6.2.0",
