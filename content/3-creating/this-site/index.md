@@ -5,14 +5,15 @@ tags:
   - page
 permalink: /this-site/
 ---
-# {{title}}
+## {{title}}
+
 __what is this purpose of this website?__\
 _friends?_\
 _interesting inbounds?_\
 _long term thinking?_\
 _short term thinking?_\
 _self expression?_\
-_collaborators?_    
+_collaborators?_
 
 no, no, no. all of those and none of them. this is a blog for play.
 

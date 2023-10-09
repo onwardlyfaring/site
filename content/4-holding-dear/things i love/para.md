@@ -7,4 +7,4 @@ I didn't want Tiago Forte's book _Building a Second Brain_ to be helpful; but al
 
 After reading _Building a Second Brain_, I did actually reformat all of my various drives into this form -- folders for projects in the projects folder, etc -- and my digital quality of life has gone up immensely. I can find things without search now. Everything is just magically where I want it to be. It requires way less maintenance than any other organizational system I've tried. And it IS a system: it is self-consistent, non-trivially so, the way one would hope a system would be.
 
-Anyways, unless your use case is super niche, maybe check out some of Tiago Forte's blog posts on [PARA](https://fortelabs.com/blog/para/), or read his book for a broader introduction. 
+Anyways, unless your use case is super niche, maybe check out some of Tiago Forte's blog posts on [PARA](https://fortelabs.com/blog/para/), or read his book for a broader introduction.

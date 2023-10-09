@@ -7,7 +7,7 @@ startdate: 2023-02-22
 enddate: 2023-04-08
 status: in progress
 progress: XOOO
-tags: 
+tags:
   - experiments
   - religion
 templateEngineOverride: njk
@@ -16,31 +16,35 @@ questionAbstract: "Does my understanding of biblical Jesus match how I hear peop
 ---
 
 {% intentions %}
-I have strangely little familiarity with the Bible. I'm always surprised when I recognize passages. Even though I often hear biblical text in church or at morning prayer, it usually slips in one ear and out the other, and I've done very little Bible study. I'm not too concerned about this fact, to be honest; one day I hope to do more serious scriptural study, but that time doesn't have to be now. At this juncture, though, I do think it would do me good to know what we talk about Jesus as having said. The four Gospels of the Second Testament are not very long, and it seems a fitting Lenten practice to read a little bit of them each day. 
+I have strangely little familiarity with the Bible. I'm always surprised when I recognize passages. Even though I often hear biblical text in church or at morning prayer, it usually slips in one ear and out the other, and I've done very little Bible study. I'm not too concerned about this fact, to be honest; one day I hope to do more serious scriptural study, but that time doesn't have to be now. At this juncture, though, I do think it would do me good to know what we talk about Jesus as having said. The four Gospels of the Second Testament are not very long, and it seems a fitting Lenten practice to read a little bit of them each day.
 {% endintentions %}
 {% questions %}
+
 * What does Jesus say about wealth, work, and concern with accumulation?
 * What does Jesus say about religious law?
 * Does my understanding of biblical Jesus match better to the evangelical understanding of Jesus or the progressive Christian one? In what ways is biblical Jesus reminiscent of each?
 * Are there passages in the four Gospels that will surprise me?
 * Do I like the Gospels?
+
 {% endquestions %}
 {% results %}
 {% endresults %}
 {% notes %}
-#### 2023-02-23 | Matthew 1-3 | The Jewish Annotated New Testament & Remembering The Historical Jesus 
+
+#### 2023-02-23 | Matthew 1-3 | The Jewish Annotated New Testament & Remembering The Historical Jesus
+
 I'm reading  from Levine and Brettler's _The Jewish Annotated New Testament_, which I received as a Christmas gift from one of my housemates last year. I didn't think too much about this choice at first -- it was clear to me that I wanted some guiding text as I read, and this book is just what I have on hand. But there's a little more to it; I suspect that reading from the Bible in such a deliberate way would not even have crossed my mind if I did not have this Jewish-annotated version. Bible-reading feels strangely associated with evangelicalism to me; I do not feel particularly comfortable with Bibles as a whole, whereas this book feels much more comfortable.
 
-
-But that means that I'm reading, well, Jewish annotations while I read the Gospel text. Which is great! There's lots of context that I'm glad to have. But it's also more jarring than I was expecting. There's a first box of additional content entitled "The Virgin Birth" which, after discussing the relevant Hebrew and Greek vocabulary, goes on to say 
+But that means that I'm reading, well, Jewish annotations while I read the Gospel text. Which is great! There's lots of context that I'm glad to have. But it's also more jarring than I was expecting. There's a first box of additional content entitled "The Virgin Birth" which, after discussing the relevant Hebrew and Greek vocabulary, goes on to say
 > Traditional Christian readings favor a reference to a miraculous conception. However, some interpreters argue that Matthew was not speaking of a literal conception that took place apart from sexual intercourse. Others propose that Matthew borrowed from pagan traditions, in which a male god engages in intercourse with a human woman (cf. Gen 6.1-4); or that the tradition of miraculous conception arose in order to explain what would otherwise be seen as an illegitimate conception; still others see behind Matthew's account a midrash similar to Jewish ones concerning the miraculous birth of Moses. (4)
 
 I... woah. I exist in Christian circles where no one is really suggesting that there was a miraculous conception, and also in circles where people are pretty delighted to talk about historical, linguistic, and theological context. But I have not actually ever heard anyone talk about _why_ our tradition describes a miraculous conception, except maybe to gloss over the relationship with Moses. Certainly I have not heard anyone suggest that the alternative was an illegitimate conception!
 
-More generally, I've never paid attention to discussions of the Historical Jesus; they seemed uninteresting and more or less pointless to me. I'm Christian because I find that these stories and this tradition capture something important about the world, enough that I feel under-their-claim, somehow, and will be living in dialogue with them. In college in particular I was big into historicity not being truth; indeed, an understanding of poetical truth, truth which is not simply accuracy, was a vital step in my coming to identify myself as a Christian. But damn. Do I then end up believing something like, yes the Messiah has come, but no, uh, it wasn't really _Jesus of Nazareth_? Yes, God has become incarnate, and we can think about all the implications of that... but no, no, uh, not in _that_ guy? (at least not any more than in anyone else.) Because those sentences sound really stupid, even to me. Like, shoot, what do I do about the fact that there really was a Jewish dude in early A.D. who was baptized and crucified? Which, yikes, somehow I feel very weak right now, and like I probably have been deceiving myself a long time, but I also feel dissatisfied with my options. Like this is a moment of real naivety; I have no idea what I'm talking about. 
+More generally, I've never paid attention to discussions of the Historical Jesus; they seemed uninteresting and more or less pointless to me. I'm Christian because I find that these stories and this tradition capture something important about the world, enough that I feel under-their-claim, somehow, and will be living in dialogue with them. In college in particular I was big into historicity not being truth; indeed, an understanding of poetical truth, truth which is not simply accuracy, was a vital step in my coming to identify myself as a Christian. But damn. Do I then end up believing something like, yes the Messiah has come, but no, uh, it wasn't really _Jesus of Nazareth_? Yes, God has become incarnate, and we can think about all the implications of that... but no, no, uh, not in _that_ guy? (at least not any more than in anyone else.) Because those sentences sound really stupid, even to me. Like, shoot, what do I do about the fact that there really was a Jewish dude in early A.D. who was baptized and crucified? Which, yikes, somehow I feel very weak right now, and like I probably have been deceiving myself a long time, but I also feel dissatisfied with my options. Like this is a moment of real naivety; I have no idea what I'm talking about.
 
 ##### Other notes
- * I'd love to hear what more people have to say re: the ways in which Jesus is set out as a new Moses, but also as superior to Moses (??)
+
+* I'd love to hear what more people have to say re: the ways in which Jesus is set out as a new Moses, but also as superior to Moses (??)
 
 Matthew 1:
 
@@ -65,6 +69,7 @@ Matthew 3:
 * Jesus getting baptized is one of the few things historians think actually happened, in part because it is kind of strange for Jesus to be baptized by John for repentance if he's divine. I don't really know what to make of this, but I do like it. It feels like it starts him off from this more obviously human place.
 
 #### 2023-02-24 | Matthew 4-6
+
 I guess I was being a little misleading before, in that it isn't the case that I am particularly unfamiliar with the Gospels. I've been hearing these stories my whole life, and in particular in these last years. But I've just never put them all together before? And in some ways, it feels like they aren't meant to be put all together. Like I think as a kid I assumed the Gospels had all sorts of connective text, and that it was only when I started reading the Gospel readings aloud at morning prayer that I really realized how little fluff there is, that it really is one heavy hitting bit after another. But it's still really strange to see everything linked together as-if-temporally in this way.
 
 But in particular, I had no concept that some things come before other things, in the Gospels. Which in retrospect makes sense... but I think sermons about the Syrophonecian woman were the only time that this progression was ever framed for me.
@@ -103,8 +108,8 @@ Matthew 6:
 * Paraphrasing: don't worry about what you will wear or eat or drink; have faith in God to provide, and focus first on the righteousness of God || don't worry about tomorrow; today's trouble is enough for today.
 * These passages are very clear that God needs to come before wealth; it is less clear whether this precludes accumulation of resources at all? Also it is interesting that these are all in-and-of-themselves spiritual reasons, and not e.g. distributional inequality reasons.
 
-
 #### 2023-02-26 | Matthew 7-8
+
 I'm very glad that I am conceiving of this project as a quick read through the Gospels to get a baseline sense of how I feel about the holy text of the religion I ostensibly subscribe to... rather than as a bible study itself? Otherwise this pace would be totally unsustainable; there is simply too much here, I would want to be going verse by verse, and with commentaries. I have the sense that there's so much here I don't understand. And also that that's kind of relieving, actually, for scripture! It had better be deep! But this is also strange for Lent; strange to be judging rather than learning, strange because I don't know the answer to the question of to what degree I am hoping to be moved.
 
 Matthew 7:
@@ -121,8 +126,9 @@ Matthew 8:
 * "Go; let it be done for you according to your faith" -- I always forget that this is a thing, that more faith is supposed to here mean better (??) results.
 * Jesus can control the weather, we are told.
 * In the annotation to the herd of pigs perishing (with the demons) in the water, the annotation reads "the story illustrates Jesus' authority over evil sprits; pigs can swim" and that really tickled me for reasons I do not understand. I think part of it is just that this story is so strange, that part of this showcase of Jesus's power, sending out the demons, also includes killing lots of pigs? I get it that they aren't kosher though.
- 
- #### 2023-02-28 | Matthew 9-11 
+
+#### 2023-02-28 | Matthew 9-11
+
 I didn't mean to be writing quite as many notes as I have been, and I hope that soon they continue to get more brief as I get acquainted with this project... unless that's at odds with the project itself!
 
 Matthew 9:
@@ -144,9 +150,10 @@ Matthew 11:
 
 * I like what Jesus says to the crowd about John -- it feels literary and vivid, although I feel like I don't know what it says. All the questions, the description of the energy of the people riled up by John and Jesus and then the comparison of the generation to children sitting in the marketplace complaining.
 * No idea what's going on with these three cities.... Capernaum is where Jesus made his home? back in 5:13? so uh oops @ them not responding well.
-* And then suddenly we get to the my-yoke-is-easy-and-my-burden-is-light passage. 
+* And then suddenly we get to the my-yoke-is-easy-and-my-burden-is-light passage.
 
 #### 2023-03-01 | Matthew 12-14
+
 So there is Judaism, and there is Christianity, and they are two separate religions, and how did we get here? And reading the Gospels today was was the first time when I felt a sense that like -- yeah, I get it, you can feel it here, the energy around Jesus, and I can imagine through time, how this would be divisive. And it was the first day when I imagined what it would be like to choose Christianity? I think, growing up, Judaism always seemed like a better religion than Christianity. I don't actually want to compare religions against each other in this way, I do think that's silly. But I had plenty of holy envy for Judaism, and yet had never really considered what parts of Christianity I really do value/believe/feel called to live within; I had never really realized that there could be things I like about Christianity that really are distinctively Christian.
 
 Matthew 12:
@@ -159,11 +166,11 @@ Matthew 12:
 * The passage about knowing the tree by its fruit made me laugh; I thought the very different but structurally similar case about epistemic practices that would lead one to quite a different conclusion, where it's so clearly possible to arrive to a right conclusion by terrible epistemic practices. (and you don't want to reject someone's conclusions just because you reject their methodology! it isn't biconditional that way!) -- but uh yeah this is maybe one place where I am departing in style and mood from Biblical text. What would it look like to take this more seriously?
 * Jesus disavowing his mother and brothers, pointing to the disciples, saying that whoever does the will of God is his family - made me kind of sad.
 
-Sometimes in church, we talk about Jesus as being wry, or we talk about the jokes or exaggerations that are harder to pick up 2000 years later. I'm having a little trouble squaring that as I read through Matthew; I think it is probably right, and also, Jesus's personality just does seem kind of big and grand so far? 
+Sometimes in church, we talk about Jesus as being wry, or we talk about the jokes or exaggerations that are harder to pick up 2000 years later. I'm having a little trouble squaring that as I read through Matthew; I think it is probably right, and also, Jesus's personality just does seem kind of big and grand so far?
 
 Matthew 13:
 
-* Parables! Always make me think of being a kindergartener in Catholic school, they LOVED the imagery of the mustard seed, and also had a station where we could make bread dough bc yeast. 
+* Parables! Always make me think of being a kindergartener in Catholic school, they LOVED the imagery of the mustard seed, and also had a station where we could make bread dough bc yeast.
 * I had never imagined Jesus sitting in a boat while telling parables to a crowd on the beach, that's kind of funny.
 * Parable of the sower seems actually strangely apt.
 * The exaggeration of the parables of mustard seed and yeast always surprise me. The annotation here actually suggests that these parables are parodies; I don't know what it would mean to understand them as parodies. I do think that the mustard plant becoming a tree ("greatest of the shrubs") is ironic, that this is heavyhanded and exaggerated. But I don't know how to take it. Also I did not realize that three measures of flour was _quite_ that much flour (~60 pounds). Something strange and confusing and surprising? I guess that's the case with several of these.
@@ -175,6 +182,7 @@ Matthew 14:
 * After the feeding of the 5000, I didn't realize that he made the disciples go off on the boat while he dispersed the crowds, such that he had time alone to pray on the mountain, and that that was why he had to pull the whole walking-on-water thing. I like this vision of Jesus having some time alone in that moment.
 
 #### 2023-03-02 | Matthew 15-17
+
 A friend of mine is in Jerusalem this year studying Jewish texts; and she told me of her discomfort with a conversation that had edged around suggesting that Christianity is idolatrous. But it was almost relieving to hear. How many times have I heard Christians edge around suggesting awful things about Judaism? Anti-semitism runs deep, and Christian hegemony runs deep, and it is impossible to hear those conversations without that context. And still, there is some sense in which, the perspectives are just different, and almost (though possibly not quite actually) at odds; and that there's something dear and worth holding gently, in that. I would like to have an understanding of Jesus that is all the more nuanced for this concern of idolatry - and likewise, I wonder about perspectives on e.g. religious law that are developed also in dialogue with, yeah, what Jesus is talking about? (Apart from literally just the Second Testament itself, funnily enough.)
 
 Also, I feel kind of silly writing all of this down, I almost feel mortified, because these thoughts are so basic. And yet that's also the point, a little bit? A first introduction. Sometimes I google things I don't understand, and there are always so many people trying to explain. People really care about this text. It is worth engaging with, it is worth being a beginner with, it is worth getting a sense of. Sometimes I have been worried too that as a Lenten practice this is leaning far too much into thinking, rather than praying; and yet it does seem like the right thing to be doing, it seems like exactly what I need to be doing, and it is different than anything I have done before. I guess it does feel like preparation; and a different kind of preparation than I would have been able to anticipate.
@@ -212,6 +220,7 @@ Matthew 17:
 I am getting excited also to see how the different Gospels differ.
 
 #### 2023-03-03 | Matthew 18 - 21
+
 Last night, I prayed more genuinely than I have in years. And I listened to my Lent playlist from the days I experimented with not listening to secular music during Lent, I chose to, I wanted to. And I listened to some songs about the love that Jesus has for us, and then I wondered why we insist so much that Jesus loves us. So maybe that is something to be attentive to, also: what does it mean that Jesus loves us? And where do I see that, in the Gospels?
 
 Matthew 18:
@@ -223,7 +232,7 @@ Matthew 18:
 * This passage about what to do if one member of the church sins against another seems like it makes a lot of sense in some contexts... but also not that much sense in others. In my intentional community, we started off a conversation about how to deal with conflict by referencing this verse, and we... sort of got to something similar to this by the end? But there are all of these cases (in my community and elsewhere) where a dynamic between two people echoes other dynamics, or is a reaction to other dynamics, and it makes sense to address it at the community level much earlier. Perhaps we say these are not cases of one sinning against the other? But that doesn't seem right, either.
 * Binding/loosing on earth having that effect in heaven - this is repeated from earlier, I didn't want to comment on it then - but the annotations on 16.19 suggest that bound/loose indicates "'forbid and permit' (in a legal sense), according to rabbinic teachings"... the internet also suggests that in context this is talking about convicting and acquitting; that it is about how we stand in relation to one another in these cases of persistent sin. That seems like a lot of power for people? But the next verse talks about needing two people to agree, for this earth/heaven thing -- because when gathered in Jesus' name, he is there among them. I still feel dissatisfied and confused? But there's something strangely empowering in this, and something strangely practical. I am reminded a little bit too of structures like Quaker Clearness Committees.
 *  "For when two of three are gathered in my name, I am there among them." -- at morning prayer, we often say the Prayer of St Chrysostom, which includes a line based on this verse, and I always love it (typically there are two or three of us at prayer).
-* As God forgives us again and again, so must we forgive one another again and again -- I love this. 
+* As God forgives us again and again, so must we forgive one another again and again -- I love this.
 
 Also the language "Jesus of Nazareth" and "Jesus Christ" will probably be helpful to me as I continue to think about what it means for an actual human being guy to be the Messiah.
 
@@ -250,6 +259,7 @@ Matthew 21:
 * Parable of the vineyard, the leaders condemn themselves, generally not so pretty.
 
 #### 2023-03-04 | Matthew 22 - 23
+
 I have taken up reading Mark Johnston's _Surviving Death_ again. I wasn't expecting to; I thought I might return to _Saving God_ this Lent, but not _Surviving Death_. But all these Jesus thoughts have me wanting ways to reconcile Jesus-as-Christ and Jesus-of-Nazareth a little better, even if I think of the question not-so-historically. I hope that _Surviving Death_ will give me some fodder as how to think about resurrection in general, and I also wonder if its way of thinking about what a _person_ is might help with that "wait wait wait if I believe that God came down to be human, then I have to believe there was just some human guy who also was God??". Because - as was perhaps the only think I really learned from my undergrad philosophy studies - nothing is ever very simple or very clear, and this world is strange no matter how you see it. I'm wondering if my "just some human guy" intuition is failing at that; if actually understanding the weirdness that is people will help me imagine Jesus as the Son of God a little better.
 
 Matthew 22:
@@ -263,7 +273,7 @@ Matthew 22:
 Matthew 23:
 
 * I do usually take the shitting-on-the-Pharisees to be a little bit tinged with narcissism of small differences, or this kind of inside-baseball charging-against-each-other; I should double-check that that's a reasonable way to be taking it. Still interesting to have that purportedly coming out of the mouth of Jesus, though. I do have some additional question here about how to think about the Gospels, though. I take them to be historical texts as well as religious ones, and deeply formed by the times and moments of their compositions; I don't think that this is the pure word of God in some special sense. But if I do think that there is some truth in the Jesus-picture, where does that come from, if I also am insisting that it doesn't come from historical-Jesus himself?
-* It is not clear to me how applicable this criticism of the Pharisees actually is to the Pharisees; but these do all seem like good things to be careful about in my own practice. 
+* It is not clear to me how applicable this criticism of the Pharisees actually is to the Pharisees; but these do all seem like good things to be careful about in my own practice.
 * The language here is really forceful. "Woe to you!" indeed. So many exclamation points, so much emphasis. The stakes are high.
 
 #### 2023-03-05 | Matthew 24-28
@@ -285,7 +295,7 @@ Matthew 26:
 * The anointing woman passage is one of the kinds of passages that I just love in the Gospels; it is surprising and strange and beautiful, even as it leaves me with a mix of feelings.
 * The annotations point out that Matthew suggests greed as motivation for Judas; Luke and John link Judas to Satan. I am not sure what to think of the betrayal.
 * I hear these pieces of the Last Supper every week at communion. My church now says that the blood of the covenant is poured out "for you and for many" for the forgiveness of sins; I have stuck in my head an "for all" there, and I wonder if a church I went to said this at some point; in this is translation of Matthew it is "for many."
-* I had never thought about how that body/blood passage is sandwiched between Jesus being like, one of you will betray me, and, all of you will desert me. 
+* I had never thought about how that body/blood passage is sandwiched between Jesus being like, one of you will betray me, and, all of you will desert me.
 * The disciples not being able to stay awake; Jesus praying to the Father; he seems so human here, and yet so large, "My Father, if it is possible, let this cup pass from me; yet not what I want but what you want" to "My Father, if this cannot pass unless I drink it, your will be done." -- what a prayer, and with Jesus grieved and agitated.
 * And then the crows with the elders and chief priests comes to arrest Jesus. I did not know that one of Jesus' companions cut off the ear of the slave of the high priest? woah. But Jesus is like, no, that's not the point.
 * Jesus says here that it must happen this way for the scriptures to be fulfilled, but Matthew (who has been quoting prophets generously) does not quote anything here, and the annotations say that's because there's really nothing to quote -- no pre-Christian sources predict the arrest, suffering, and crucifixion of the Messiah. Before this, I had thought that the point of quoting all that Isaiah was to make the point that the prophets had predicted this, that Jesus is the Messiah as had been layed out, etc etc. But now I wonder if beyond trying to tie in Jesus to the older tradition, there's also just the crystallization of -- it had to happen this way. Not because anyone in particular that the reader might care about predicted it, but just because it has to. -- ? (and per the end of _Saving God_, Johnston does sort of think that this is the exact point, doesn't he?)
@@ -323,7 +333,7 @@ Sometimes, when I am feeling at my worst, I tell myself that God still loves me,
 
 I am typically scared of calls to evangelism, of evangelism itself. Conversion is tricky business, and most of the proselytization that I am familiar with just seems icky. In part I think that's because I see proselytization from contemporary evangelical Christians, and I think that they are misguided. This whole you-have-to-be-Christian-to-go-to-heaven, and the way it has crystallized, this need to profess something so hard, speaking of your faith in Jesus Christ and the literal word of God -- puts so much pressure on the whole endeavor, and it makes you want to count people, and it is so flat, and it is so easy to flatten others. So when I hear calls to evangelize in the Bible, I flinch. But coming out of Jesus' mouth, that's probably just not what that means.
 
-The early Christians - Jew and gentile - had quite a lot of zeal. (Probably you need that, for Christianity to branch off as its own religion at all!) But why? Mark Johnston says: because something in Christianity was a genuine religious innovation. For Girard (according to Johnston), the innovation is that the crucifixion of Christ unmasks the cycles of mimetically-driven all-against-all tension being released with the destruction of a scapegoat, via sacrifice, or otherwise in seemingly-legitimate violence -- and it gives a new resolution for that mimetic tension, imitation of Christ's self-sacrificing love. Johnston names the innovation differently; he sees the violence as upholding a common, commoditized conception of how to live, a conception of righteousness that we grasp brittely instead of encountering the abyss, that we have no idea how to live -- and Christ calls us to open love and compassion, rather than this ready-to-wear righteousness -- if we are to not simply forget the crucifixion, we have to give up on the idea of _possessing_ the knowledge of how to live. And that's crazy, that's amazing. 
+The early Christians - Jew and gentile - had quite a lot of zeal. (Probably you need that, for Christianity to branch off as its own religion at all!) But why? Mark Johnston says: because something in Christianity was a genuine religious innovation. For Girard (according to Johnston), the innovation is that the crucifixion of Christ unmasks the cycles of mimetically-driven all-against-all tension being released with the destruction of a scapegoat, via sacrifice, or otherwise in seemingly-legitimate violence -- and it gives a new resolution for that mimetic tension, imitation of Christ's self-sacrificing love. Johnston names the innovation differently; he sees the violence as upholding a common, commoditized conception of how to live, a conception of righteousness that we grasp brittely instead of encountering the abyss, that we have no idea how to live -- and Christ calls us to open love and compassion, rather than this ready-to-wear righteousness -- if we are to not simply forget the crucifixion, we have to give up on the idea of _possessing_ the knowledge of how to live. And that's crazy, that's amazing.
 
 If something like that is right, I get it. I want to be transformed by that; I want everyone to have the chance to be transformed by that. It's not that we all have to talk about Jesus Christ in particular -- that is already too calcified, Christ is everywhere now, under all our names, Christ doesn't have to care about being Jesus of Nazareth, or whatever. I think there can be many paths to a redeemed life. But insofar as there is important religious innovation happening here, I understand the calls to evangelism much better -- not as religion as something calcified, but about direction towards a redeemed life. (I will need to think about this more seriously from an interfaith perspective; is the Christian innovation already there? does it need to be there? does it not need to be there?)
 
@@ -339,7 +349,7 @@ I feel like I've ended up at Jesus who is 100% human and about 85% divine, but t
 
 The angels appear and say, Do not be afraid. How strange it is, that we can handle any sort of revelation.
 
-*** 
+***
 
 I certainly have ended this first week and a half in a little bit of a different place than I started.
 

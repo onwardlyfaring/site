@@ -13,4 +13,4 @@ When I start to lose steam on describing my current state, I start a new paragra
 
 The final step, N - Non-identification - is my favorite. It is what I never knew I needed but always do seem to need; and it works much better after doing the recognizing and investigating and allowing. In a new paragraph, I write sentences to remind myself that I am not identical with my emotions, that I am the awareness underneath them experiencing them. Once again, through the writing of these sentences, I come to see them as true.
 
-<a href = "https://melliobrien.com/r-n-four-step-process-using-mindfulness-difficult-times/">This</a> is the resource the therapist who introduced me to RAIN used. 
+<a href = "https://melliobrien.com/r-n-four-step-process-using-mindfulness-difficult-times/">This</a> is the resource the therapist who introduced me to RAIN used.

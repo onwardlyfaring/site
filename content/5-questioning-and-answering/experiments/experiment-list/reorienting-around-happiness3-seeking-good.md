@@ -22,14 +22,17 @@ questionAbstract: What are deep conversation paradigms that are not grounded in 
 In conversations with my friends, actively ask about what is good in their lives. Try to learn something new about people through these good things. Ideally, I would make active effort in each long-form conversation I have during Lent, but realistically I'm shooting for really exploring this about once a week.
 {% endintentions %}
 {% questions %}
+
 * Can we have conversations that are deep because they describe? What does back-and-forth engagement look like there, what does coming to describe together look like?
 * Are intentions to problem solve at odds with intentions to appreciate what is good?
 * How even do I get people talking about what's going well?
 * Are there different conversational modes around "appreciating" vs "feeling blessed"?
+
 {% endquestions %}
 {% notes %}
+
 * Asked the what's-good question to a friend, got back an anecdote about online dating turned friendship that was quite sweet; and then got the question turned back on me, which I was unprepared for.
+
 {% endnotes %}
 {% results %}
 {% endresults %}
-
