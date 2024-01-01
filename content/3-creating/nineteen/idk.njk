@@ -1,0 +1,48 @@
+---
+eleventyExcludeFromCollections: true
+layout: page.njk
+include_aside: false
+title: To Notice
+meta:
+  robots:
+    value: noindex
+permalink: "/idkx/"
+---
+<h2 class = "pb-3">snippets <span class = "text-xs text-gray-400">(the bite of an apple)</span> </h2>
+~UNDER CONSTRUCTION~
+<div class=" pb-8 font-light flex flex-wrap gap-1 no-underline">
+    {% for post in collections.snippets %}
+		<a class="font-normal cursor-pointer rounded-md border-1 border-gray-700 px-4 !no-underline text-center
+		{% if 'recommend-level-0' in post.data.tags %}
+			 bg-gray-100 hover:bg-gray-200 
+			 text-gray-600
+		{% elif 'recommend-level-1' in post.data.tags%}
+			 bg-gray-300 hover:bg-gray-400 
+			 text-gray-600
+		{% else %}
+			bg-red-300 hover:bg-red-400 
+			text-orange-800
+		{% endif %}" href="{{ post.url | url }}">
+		<div class = "font-normal postlistheading no-underline"> {{ post.data.title }}</div>
+		</a>
+    {% endfor %}
+</div>
+
+
+
+{# <div class=" pb-8 font-light">
+    {% for post in collections.snippets %}
+    <div class = "pb-2">
+		<a class="font-normal {% if 'recommend-level-0' in post.data.tags %}
+			text-gray-300
+			decoration-gray-300
+		{% elif 'recommend-level-1' in post.data.tags%}
+			text-gray-600
+		{% else %}
+			text-orange-800
+		{% endif %}" href="{{ post.url | url }}">
+		<span class = "font-normal postlistheading"> {{ post.date | readableDate }}: {{ post.data.title }}</span>
+		</a>
+    </div>
+    {% endfor %}
+</div> #}
